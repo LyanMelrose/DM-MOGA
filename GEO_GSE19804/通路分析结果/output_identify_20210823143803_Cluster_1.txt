@@ -1,0 +1,978 @@
+"##Databases: PANTHER, KEGG PATHWAY, Reactome, BioCyc"								
+##Statistical test method: hypergeometric test / Fisher's exact test								
+##FDR correction method: Benjamini and Hochberg								
+								
+#Term	Database	ID	Input number	Background number	P-Value	Corrected P-Value	Input	Hyperlink
+Hepatitis B	KEGG PATHWAY	hsa05161	16	163	1.47E-16	1.42E-13	IRF3|TICAM1|TP53|PIK3CA|RB1|TLR3|NFATC4|TNF|PIK3R3|IRF7|BAX|IKBKE|E2F3|MAVS|CREBBP|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05161/hsa:3665%09red/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:1871%09red/hsa:7098%09red/hsa:1387%09red/hsa:4776%09red/hsa:581%09red/hsa:7157%09red/hsa:57506%09red/hsa:5290%09red/hsa:148022%09red/hsa:9641%09red/hsa:8517%09red/hsa:7124%09red
+Human T-cell leukemia virus 1 infection	KEGG PATHWAY	hsa05166	17	219	6.11E-16	2.94E-13	MAD2L1|MAML2|TP53|TCF3|PIK3CA|KAT2B|RB1|PTEN|NFATC4|TNF|PIK3R3|IKBKG|BAX|E2F3|MAP3K14|ETS1|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05166/hsa:2113%09red/hsa:5925%09red/hsa:8503%09red/hsa:7124%09red/hsa:5290%09red/hsa:8850%09red/hsa:4776%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:6929%09red/hsa:8517%09red/hsa:23373%09red/hsa:1387%09red/hsa:4085%09red/hsa:9020%09red
+Immune System	Reactome	R-HSA-168256	41	2096	9.35E-16	3.00E-13	CD55|IKBKE|PSMD4|FBXO11|BIRC2|FOXO1|IKBKG|ADAM17|S100A11|S100A12|S100B|TICAM1|SUGT1|PTEN|PIK3CA|PIK3R3|MNDA|MBL2|RANBP2|MVP|IRF3|FRK|PGM1|TXLNA|AGER|VCP|TNF|IRF7|TRIP12|SERPINB2|FBXO7|UBE4A|RNF216|TP53|IL16|TLR3|CD14|MAP3K14|EDAR|MAVS|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168256
+Hepatitis C	KEGG PATHWAY	hsa05160	14	155	3.55E-14	8.54E-12	IRF3|TICAM1|TP53|PIK3CA|RB1|TLR3|TNF|PIK3R3|IRF7|BAX|IKBKE|E2F3|MAVS|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05160/hsa:3665%09red/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:1871%09red/hsa:7098%09red/hsa:581%09red/hsa:7157%09red/hsa:57506%09red/hsa:5290%09red/hsa:148022%09red/hsa:9641%09red/hsa:8517%09red/hsa:7124%09red
+Gene expression (Transcription)	Reactome	R-HSA-74160	32	1448	9.24E-14	1.78E-11	PSMD4|KAT2B|BAX|FKBP5|FOXO1|SOX9|CBX4|EHMT2|TFAP2C|RB1|TRIAP1|CBFB|MED17|CITED2|RANBP2|SMARCB1|TCF3|ZNF521|PPM1D|THOC1|UBE2I|NFIA|RBBP8|TP53|LMO2|PTEN|RAD51|TCF12|PTRF|PLAGL1|CCNH|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74160
+Kaposi sarcoma-associated herpesvirus infection	KEGG PATHWAY	hsa05167	14	186	3.64E-13	5.00E-11	IRF3|TICAM1|TP53|PIK3CA|RB1|TLR3|NFATC4|PIK3R3|IRF7|BAX|IKBKE|E2F3|CREBBP|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05167/hsa:3665%09red/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:1871%09red/hsa:7098%09red/hsa:1387%09red/hsa:4776%09red/hsa:581%09red/hsa:7157%09red/hsa:5290%09red/hsa:148022%09red/hsa:8517%09red/hsa:9641%09red
+Transcriptional misregulation in cancer	KEGG PATHWAY	hsa05202	14	186	3.64E-13	5.00E-11	TP53|CEBPE|TCF3|LMO2|ID2|SIX1|FOXO1|RUNX2|DDX5|CD14|RUNX1T1|BAX|PAX8|ETV4	http://www.genome.jp/kegg-bin/show_pathway?hsa05202/hsa:1655%09red/hsa:4005%09red/hsa:581%09red/hsa:862%09red/hsa:2118%09red/hsa:860%09red/hsa:1053%09red/hsa:7157%09red/hsa:3398%09red/hsa:6929%09red/hsa:7849%09red/hsa:6495%09red/hsa:929%09red/hsa:2308%09red
+Epstein-Barr virus infection	KEGG PATHWAY	hsa05169	14	201	9.77E-13	1.05E-10	IRF3|E2F3|PSMD4|IKBKE|MAP3K14|RB1|TNF|PIK3R3|IRF7|BAX|PIK3CA|TP53|MAVS|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05169/hsa:3665%09red/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:1871%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:57506%09red/hsa:5710%09red/hsa:8517%09red/hsa:9641%09red/hsa:7124%09red/hsa:9020%09red
+Generic Transcription Pathway	Reactome	R-HSA-212436	28	1193	9.80E-13	1.05E-10	PSMD4|KAT2B|BAX|FKBP5|FOXO1|SOX9|CBX4|EHMT2|TFAP2C|RB1|TRIAP1|CBFB|MED17|CITED2|SMARCB1|TCF3|PPM1D|UBE2I|ZNF521|RBBP8|TP53|LMO2|PTEN|RAD51|TCF12|PLAGL1|CCNH|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-212436
+RNA Polymerase II Transcription	Reactome	R-HSA-73857	29	1316	1.66E-12	1.60E-10	PSMD4|KAT2B|BAX|FKBP5|FOXO1|SOX9|CBX4|EHMT2|TFAP2C|RB1|TRIAP1|CBFB|MED17|CITED2|SMARCB1|TCF3|PPM1D|THOC1|UBE2I|ZNF521|RBBP8|TP53|LMO2|PTEN|RAD51|TCF12|PLAGL1|CCNH|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73857
+Innate Immune System	Reactome	R-HSA-168249	26	1043	1.87E-12	1.64E-10	CD55|PSMD4|BIRC2|IKBKG|IKBKE|S100A11|S100A12|MBL2|TICAM1|SUGT1|PIK3CA|MNDA|S100B|MVP|FRK|PGM1|AGER|VCP|IRF3|RNF216|IRF7|TLR3|CD14|MAP3K14|MAVS|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168249
+DDX58/IFIH1-mediated induction of interferon-alpha/beta	Reactome	R-HSA-168928	10	78	7.26E-12	5.82E-10	IRF3|S100A12|IRF7|AGER|RNF216|IKBKG|IKBKE|MAVS|CREBBP|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168928
+Influenza A	KEGG PATHWAY	hsa05164	12	167	3.05E-11	2.26E-09	IRF3|TICAM1|IRF7|PIK3CA|BAX|TLR3|TNF|PIK3R3|IKBKG|IKBKE|MAVS|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05164/hsa:3665%09red/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:7124%09red/hsa:7098%09red/hsa:1387%09red/hsa:581%09red/hsa:57506%09red/hsa:5290%09red/hsa:148022%09red/hsa:9641%09red
+Toll Like Receptor 3 (TLR3) Cascade	Reactome	R-HSA-168164	10	93	3.58E-11	2.47E-09	IRF3|TICAM1|IRF7|BIRC2|AGER|TLR3|IKBKG|IKBKE|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168164
+MyD88-independent TLR4 cascade 	Reactome	R-HSA-166166	10	98	5.77E-11	3.47E-09	IRF3|TICAM1|IRF7|BIRC2|AGER|CD14|IKBKG|IKBKE|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166166
+TRIF(TICAM1)-mediated TLR4 signaling 	Reactome	R-HSA-937061	10	98	5.77E-11	3.47E-09	IRF3|TICAM1|IRF7|BIRC2|AGER|CD14|IKBKG|IKBKE|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-937061
+Toll-like receptor signaling pathway	KEGG PATHWAY	hsa04620	10	104	9.92E-11	5.62E-09	IRF3|TICAM1|IRF7|PIK3CA|TLR3|CD14|TNF|PIK3R3|IKBKG|IKBKE	http://www.genome.jp/kegg-bin/show_pathway?hsa04620/hsa:3665%09red/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:7124%09red/hsa:7098%09red/hsa:5290%09red/hsa:148022%09red/hsa:929%09red/hsa:9641%09red
+Toll-like Receptor Cascades	Reactome	R-HSA-168898	11	154	2.20E-10	1.18E-08	IRF3|TICAM1|IRF7|BIRC2|AGER|TLR3|CD14|IKBKG|IKBKE|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168898
+Cellular senescence	KEGG PATHWAY	hsa04218	11	160	3.23E-10	1.64E-08	E2F3|FOXM1|PIK3CA|FOXO1|RB1|PTEN|NFATC4|ETS1|PIK3R3|TP53|BRF1	http://www.genome.jp/kegg-bin/show_pathway?hsa04218/hsa:2113%09red/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:4776%09red/hsa:677%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:2305%09red/hsa:2308%09red
+@@Cellular Senescence	Reactome	R-HSA-2559583	6	194	0.000275906	0.001783202	EHMT2|E2F3|RB1|ETS1|TP53|CBX4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559583
+Human papillomavirus infection	KEGG PATHWAY	hsa05165	14	330	5.08E-10	2.45E-08	IRF3|TICAM1|TP53|PTEN|PIK3CA|RB1|TLR3|FOXO1|TNF|PIK3R3|IKBKG|BAX|IKBKE|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05165/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:7124%09red/hsa:7098%09red/hsa:1387%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:5290%09red/hsa:148022%09red/hsa:8517%09red/hsa:9641%09red/hsa:2308%09red
+SUMO E3 ligases SUMOylate target proteins	Reactome	R-HSA-3108232	11	170	5.92E-10	2.71E-08	UBE2I|CBX4|TP53|TFAP2C|IKBKG|DDX5|EID3|IKBKE|TOPORS|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3108232
+Toll Like Receptor 4 (TLR4) Cascade	Reactome	R-HSA-166016	10	128	6.58E-10	2.88E-08	IRF3|TICAM1|IRF7|BIRC2|AGER|CD14|IKBKG|IKBKE|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166016
+Small cell lung cancer	KEGG PATHWAY	hsa05222	9	93	8.32E-10	3.36E-08	E2F3|PIK3CA|BIRC2|RB1|PTEN|PIK3R3|IKBKG|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05222/hsa:5925%09red/hsa:8503%09red/hsa:329%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:8517%09red
+SUMOylation	Reactome	R-HSA-2990846	11	176	8.37E-10	3.36E-08	UBE2I|CBX4|TP53|TFAP2C|IKBKG|DDX5|EID3|IKBKE|TOPORS|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2990846
+Prostate cancer	KEGG PATHWAY	hsa05215	9	97	1.18E-09	4.53E-08	E2F3|PIK3CA|RB1|PTEN|FOXO1|PIK3R3|IKBKG|TP53|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05215/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:1387%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:8517%09red/hsa:2308%09red
+Cytokine Signaling in Immune system	Reactome	R-HSA-1280215	20	836	1.62E-09	6.00E-08	IRF3|RANBP2|SERPINB2|TP53|TXLNA|PSMD4|ADAM17|IKBKG|BIRC2|IL16|AGER|FOXO1|TNF|PIK3R3|IRF7|EDAR|PIK3CA|MAP3K14|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1280215
+Signal Transduction	Reactome	R-HSA-162582	36	2689	2.65E-09	9.44E-08	MAD2L1|CD55|PSMD4|KAT2B|BAX|FKBP5|FOXO1|SOX9|IKBKG|ADAM17|CBX4|SH3GL1|S100B|CRABP2|PTEN|PIK3CA|CDC37|CBFB|PIK3R3|GFAP|RANBP2|CLASP2|FRK|BIRC2|VCP|TNF|NMT2|PTPN3|TP53|ETV4|E2F3|LINGO1|CDC14A|DDX5|HLF|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162582
+Pathways in cancer	KEGG PATHWAY	hsa05200	16	530	3.28E-09	1.13E-07	E2F3|TP53|RAD51|PIK3CA|BIRC2|RB1|PTEN|FOXO1|ETS1|RUNX1T1|IKBKG|BAX|HLF|PIK3R3|PAX8|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05200/hsa:2034%09red/hsa:5925%09red/hsa:8503%09red/hsa:329%09red/hsa:5290%09red/hsa:862%09red/hsa:2113%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:8517%09red/hsa:7849%09red/hsa:1387%09red/hsa:5888%09red/hsa:2308%09red
+Pancreatic cancer	KEGG PATHWAY	hsa05212	8	75	3.65E-09	1.21E-07	E2F3|RAD51|PIK3CA|RB1|PIK3R3|IKBKG|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05212/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red/hsa:8517%09red/hsa:5888%09red
+p53 pathway	PANTHER	P00059	8	76	4.02E-09	1.29E-07	PPM1D|TP53|PIK3CA|KAT2B|BAX|PTEN|PIK3R3|CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00059
+Post-translational protein modification	Reactome	R-HSA-597592	25	1412	5.36E-09	1.67E-07	IKBKE|CD55|COPS2|PSMD4|FBXO11|KAT2B|IKBKG|FBXO7|CBX4|TOPORS|TRAPPC6A|TFAP2C|RANBP2|PTEN|RNF40|VCP|UBE2I|TP53|TRAPPC3|DDX5|EID3|BIRC2|HLF|MAVS|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-597592
+TICAM1-dependent activation of IRF3/IRF7	Reactome	R-HSA-9013973	5	12	9.38E-09	2.82E-07	IRF3|TLR3|IKBKE|IRF7|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9013973
+TRAF3-dependent IRF activation pathway	Reactome	R-HSA-918233	5	14	1.75E-08	5.11E-07	IRF3|MAVS|IRF7|CREBBP|IKBKE	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-918233
+Measles	KEGG PATHWAY	hsa05162	9	138	2.11E-08	5.98E-07	IRF3|IRF7|PIK3CA|BAX|PIK3R3|IKBKG|IKBKE|TP53|MAVS	http://www.genome.jp/kegg-bin/show_pathway?hsa05162/hsa:3665%09red/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:57506%09red/hsa:9641%09red
+NF-kappa B signaling pathway	KEGG PATHWAY	hsa04064	8	100	2.97E-08	8.16E-07	UBE2I|TICAM1|BIRC2|CD14|TNF|MAP3K14|IKBKG|EDAR	http://www.genome.jp/kegg-bin/show_pathway?hsa04064/hsa:10913%09red/hsa:7124%09red/hsa:7329%09red/hsa:329%09red/hsa:148022%09red/hsa:8517%09red/hsa:929%09red/hsa:9020%09red
+Viral carcinogenesis	KEGG PATHWAY	hsa05203	10	201	3.92E-08	1.02E-06	IRF3|TP53|PIK3CA|KAT2B|RB1|PIK3R3|IKBKG|BAX|IRF7|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05203/hsa:3665%09red/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:5290%09red/hsa:8850%09red/hsa:581%09red/hsa:7157%09red/hsa:8517%09red/hsa:1387%09red
+Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	Reactome	R-HSA-936964	5	17	3.92E-08	1.02E-06	IRF3|TICAM1|CD14|IRF7|IKBKE	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-936964
+Melanoma	KEGG PATHWAY	hsa05218	7	72	6.42E-08	1.63E-06	E2F3|PIK3CA|RB1|PTEN|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05218/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red
+Herpes simplex virus 1 infection	KEGG PATHWAY	hsa05168	14	492	6.64E-08	1.64E-06	IRF3|TICAM1|TP53|PIK3CA|BIRC2|BAX|TLR3|TNF|PIK3R3|IKBKG|IKBKE|IRF7|MAVS|POU2F3	http://www.genome.jp/kegg-bin/show_pathway?hsa05168/hsa:3665%09red/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:329%09red/hsa:7098%09red/hsa:581%09red/hsa:7157%09red/hsa:57506%09red/hsa:5290%09red/hsa:148022%09red/hsa:9641%09red/hsa:25833%09red/hsa:7124%09red
+Cellular responses to stress	Reactome	R-HSA-2262752	13	422	8.22E-08	1.95E-06	EHMT2|TP53|PSMD4|E2F3|RB1|VCP|FKBP5|ETS1|HLF|CITED2|CBX4|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2262752
+Glioma	KEGG PATHWAY	hsa05214	7	75	8.32E-08	1.95E-06	E2F3|PIK3CA|RB1|PTEN|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05214/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red
+Chronic myeloid leukemia	KEGG PATHWAY	hsa05220	7	76	9.06E-08	2.08E-06	E2F3|PIK3CA|RB1|PIK3R3|IKBKG|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05220/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red/hsa:8517%09red
+Metabolism of proteins	Reactome	R-HSA-392499	28	2012	9.38E-08	2.10E-06	IKBKE|ADD1|CD55|COPS2|PSMD4|CDX2|KAT2B|IKBKG|FBXO7|CBX4|TOPORS|SRPRB|TRAPPC6A|TFAP2C|RANBP2|FBXO11|PTEN|RNF40|VCP|UBE2I|TP53|TRAPPC3|DDX5|EID3|BIRC2|HLF|MAVS|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-392499
+Human cytomegalovirus infection	KEGG PATHWAY	hsa05163	10	225	1.07E-07	2.35E-06	IRF3|E2F3|TP53|PIK3CA|RB1|TNF|PIK3R3|IKBKG|BAX|NFATC4	http://www.genome.jp/kegg-bin/show_pathway?hsa05163/hsa:5925%09red/hsa:8503%09red/hsa:3661%09red/hsa:7124%09red/hsa:5290%09red/hsa:4776%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red/hsa:8517%09red
+p53 pathway feedback loops 2	PANTHER	P04398	6	46	1.17E-07	2.50E-06	PPM1D|TP53|PIK3CA|RB1|PTEN|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P04398
+@@P53 pathway feedback loops 1	PANTHER	P04392	1	7	0.034776055	0.075957503	TP53	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P04392
+Transcriptional regulation by RUNX1	Reactome	R-HSA-8878171	10	235	1.58E-07	3.31E-06	SMARCB1|TCF3|PSMD4|LMO2|KAT2B|CBFB|TCF12|CBX4|CCNH|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878171
+NOD-like receptor signaling pathway	KEGG PATHWAY	hsa04621	9	178	1.67E-07	3.43E-06	IRF3|TICAM1|SUGT1|IRF7|BIRC2|TNF|IKBKG|IKBKE|MAVS	http://www.genome.jp/kegg-bin/show_pathway?hsa04621/hsa:3665%09red/hsa:8517%09red/hsa:3661%09red/hsa:7124%09red/hsa:57506%09red/hsa:329%09red/hsa:148022%09red/hsa:10910%09red/hsa:9641%09red
+TRAF6 mediated NF-kB activation	Reactome	R-HSA-933542	5	24	1.72E-07	3.46E-06	MAVS|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-933542
+Cell Cycle	Reactome	R-HSA-1640170	15	629	2.05E-07	4.03E-06	UBE2I|RBBP8|E2F3|CLASP2|PSMD4|VRK1|RB1|MAD2L1|FOXM1|CDC14A|RAD51|RAD51C|TP53|CCNH|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1640170
+@@Cell cycle	KEGG PATHWAY	hsa04110	7	124	2.04E-06	2.73E-05	MAD2L1|E2F3|CDC14A|RB1|TP53|CCNH|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04110/hsa:5925%09red/hsa:1387%09red/hsa:902%09red/hsa:8556%09red/hsa:1871%09red/hsa:7157%09red/hsa:4085%09red
+@@Cell cycle	PANTHER	P00013	1	16	0.072463633	0.118275388	PSMD4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00013
+Apoptosis	KEGG PATHWAY	hsa04210	8	136	2.77E-07	5.34E-06	TP53|PIK3CA|BIRC2|BAX|TNF|PIK3R3|IKBKG|MAP3K14	http://www.genome.jp/kegg-bin/show_pathway?hsa04210/hsa:8517%09red/hsa:8503%09red/hsa:7124%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:329%09red/hsa:9020%09red
+@@Apoptosis	Reactome	R-HSA-109581	8	172	1.50E-06	2.10E-05	TICAM1|TP53|ADD1|PSMD4|BIRC2|BAX|CD14|HMGB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-109581
+Disease	Reactome	R-HSA-1643685	19	1049	3.03E-07	5.72E-06	TICAM1|PTEN|PSMD4|ADAM17|IKBKG|KAT2B|FOXO1|PGM1|VCP|TLR3|CD14|PIK3R3|NMT2|PIK3CA|CDC37|SH3GL1|CCNH|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1643685
+Toll Like Receptor 7/8 (TLR7/8) Cascade	Reactome	R-HSA-168181	7	93	3.28E-07	5.96E-06	TICAM1|IRF7|AGER|CD14|IKBKG|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168181
+MyD88 dependent cascade initiated on endosome	Reactome	R-HSA-975155	7	93	3.28E-07	5.96E-06	TICAM1|IRF7|AGER|CD14|IKBKG|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975155
+TRAF6 mediated IRF7 activation	Reactome	R-HSA-933541	5	29	3.97E-07	7.08E-06	IRF3|MAVS|IRF7|CREBBP|IKBKE	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-933541
+Toll Like Receptor 9 (TLR9) Cascade	Reactome	R-HSA-168138	7	97	4.29E-07	7.51E-06	TICAM1|IRF7|AGER|CD14|IKBKG|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168138
+Developmental Biology	Reactome	R-HSA-1266738	19	1082	4.79E-07	8.14E-06	CLASP2|TCF3|PSMD4|ONECUT1|TCF12|HNF4A|KAT2B|FOXO1|TNF|CEBPE|CBFB|PIK3R3|HOXA1|EBF1|PIK3CA|MED17|HLF|HOXB3|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1266738
+SUMOylation of immune response proteins	Reactome	R-HSA-4755510	4	11	4.82E-07	8.14E-06	UBE2I|IKBKE|IKBKG|TOPORS	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4755510
+Cytosolic sensors of pathogen-associated DNA 	Reactome	R-HSA-1834949	6	62	5.92E-07	9.83E-06	IRF3|TICAM1|IRF7|TLR3|IKBKG|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1834949
+C-type lectin receptor signaling pathway	KEGG PATHWAY	hsa04625	7	104	6.68E-07	1.09E-05	NFATC4|PIK3CA|TNF|PIK3R3|IKBKG|IKBKE|MAP3K14	http://www.genome.jp/kegg-bin/show_pathway?hsa04625/hsa:8517%09red/hsa:8503%09red/hsa:5290%09red/hsa:4776%09red/hsa:7124%09red/hsa:9641%09red/hsa:9020%09red
+Cellular responses to external stimuli	Reactome	R-HSA-8953897	13	516	7.55E-07	1.21E-05	EHMT2|TP53|PSMD4|E2F3|RB1|VCP|FKBP5|ETS1|HLF|CITED2|CBX4|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8953897
+Non-small cell lung cancer	KEGG PATHWAY	hsa05223	6	66	8.33E-07	1.29E-05	E2F3|PIK3CA|RB1|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05223/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red
+Acute myeloid leukemia	KEGG PATHWAY	hsa05221	6	66	8.33E-07	1.29E-05	CEBPE|PIK3CA|CD14|RUNX1T1|IKBKG|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa05221/hsa:8517%09red/hsa:8503%09red/hsa:5290%09red/hsa:862%09red/hsa:1053%09red/hsa:929%09red
+Apoptosis signaling pathway	PANTHER	P00006	7	108	8.49E-07	1.30E-05	TP53|PIK3CA|JDP2|BIRC2|BAX|TNF|MAP3K14	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00006
+RIG-I-like receptor signaling pathway	KEGG PATHWAY	hsa04622	6	70	1.15E-06	1.73E-05	IRF3|IRF7|TNF|IKBKG|IKBKE|MAVS	http://www.genome.jp/kegg-bin/show_pathway?hsa04622/hsa:3665%09red/hsa:8517%09red/hsa:3661%09red/hsa:7124%09red/hsa:57506%09red/hsa:9641%09red
+Hepatocellular carcinoma	KEGG PATHWAY	hsa05225	8	168	1.27E-06	1.88E-05	E2F3|TP53|PIK3CA|RB1|PTEN|PIK3R3|BAX|SMARCB1	http://www.genome.jp/kegg-bin/show_pathway?hsa05225/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:6598%09red
+Regulation of beta-cell development	Reactome	R-HSA-186712	5	38	1.33E-06	1.91E-05	FOXO1|ONECUT1|HNF4A|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-186712
+Ovarian tumor domain proteases	Reactome	R-HSA-5689896	5	38	1.33E-06	1.91E-05	VCP|PTEN|MAVS|TP53|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689896
+Transcriptional regulation by RUNX2	Reactome	R-HSA-8878166	7	118	1.49E-06	2.10E-05	ZNF521|PPM1D|PSMD4|RB1|CBFB|BAX|SOX9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878166
+Thyroid hormone signaling pathway	KEGG PATHWAY	hsa04919	7	119	1.57E-06	2.16E-05	TP53|PIK3CA|KAT2B|FOXO1|PIK3R3|MED17|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04919/hsa:8503%09red/hsa:5290%09red/hsa:8850%09red/hsa:9440%09red/hsa:7157%09red/hsa:1387%09red/hsa:2308%09red
+Programmed Cell Death	Reactome	R-HSA-5357801	8	175	1.70E-06	2.31E-05	TICAM1|TP53|ADD1|PSMD4|BIRC2|BAX|CD14|HMGB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5357801
+SUMOylation of transcription cofactors	Reactome	R-HSA-3899300	5	43	2.32E-06	3.06E-05	UBE2I|DDX5|CBX4|CREBBP|TOPORS	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3899300
+DNA Repair	Reactome	R-HSA-73894	10	331	3.17E-06	4.12E-05	UBE2I|RBBP8|TP53|COPS2|RAD51C|VCP|RAD51AP1|RAD51|EYA4|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73894
+"TICAM1, RIP1-mediated IKK complex recruitment "	Reactome	R-HSA-168927	4	20	3.64E-06	4.61E-05	TLR3|IKBKG|BIRC2|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168927
+TP53 Regulates Transcription of Genes Involved in Cytochrome C Release	Reactome	R-HSA-6803204	4	20	3.64E-06	4.61E-05	TP53|BAX|CREBBP|TRIAP1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803204
+Longevity regulating pathway	KEGG PATHWAY	hsa04211	6	89	4.26E-06	5.33E-05	EHMT2|TP53|PIK3CA|BAX|FOXO1|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04211/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:10919%09red/hsa:2308%09red
+ZBP1(DAI) mediated induction of type I IFNs	Reactome	R-HSA-1606322	4	21	4.32E-06	5.33E-05	IRF3|TLR3|IKBKG|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1606322
+Toll receptor signaling pathway	PANTHER	P00054	5	50	4.60E-06	5.61E-05	IRF3|TLR3|CD14|IKBKE|TICAM1	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00054
+TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	Reactome	R-HSA-975138	6	92	5.10E-06	6.14E-05	TICAM1|AGER|CD14|IKBKG|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975138
+Signaling by Interleukins	Reactome	R-HSA-449147	13	619	5.29E-06	6.28E-05	SERPINB2|TP53|TXLNA|PSMD4|AGER|IL16|FOXO1|TNF|PIK3R3|IKBKG|PIK3CA|S100A12|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-449147
+Breast cancer	KEGG PATHWAY	hsa05224	7	147	5.95E-06	6.99E-05	E2F3|PIK3CA|RB1|PTEN|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05224/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red
+Gastric cancer	KEGG PATHWAY	hsa05226	7	149	6.48E-06	7.52E-05	E2F3|PIK3CA|CDX2|RB1|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa05226/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red/hsa:1045%09red
+Diseases associated with the TLR signaling cascade	Reactome	R-HSA-5602358	4	24	6.91E-06	7.74E-05	TLR3|CD14|IKBKG|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5602358
+IKK complex recruitment mediated by RIP1	Reactome	R-HSA-937041	4	24	6.91E-06	7.74E-05	TICAM1|CD14|BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-937041
+Diseases of Immune System	Reactome	R-HSA-5260271	4	24	6.91E-06	7.74E-05	TLR3|CD14|IKBKG|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5260271
+Endocrine resistance	KEGG PATHWAY	hsa01522	6	98	7.20E-06	7.97E-05	E2F3|PIK3CA|RB1|PIK3R3|BAX|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa01522/hsa:5925%09red/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:1871%09red
+AGE-RAGE signaling pathway in diabetic complications	KEGG PATHWAY	hsa04933	6	100	8.03E-06	8.79E-05	PIK3CA|AGER|BAX|FOXO1|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04933/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:177%09red/hsa:7124%09red/hsa:2308%09red
+Diseases of signal transduction	Reactome	R-HSA-5663202	10	374	8.96E-06	9.62E-05	PSMD4|ADAM17|KAT2B|CDC37|VCP|PTEN|FOXO1|PIK3R3|PIK3CA|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5663202
+Endometrial cancer	KEGG PATHWAY	hsa05213	5	58	9.04E-06	9.62E-05	PIK3CA|PIK3R3|TP53|BAX|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa05213/hsa:5290%09red/hsa:5728%09red/hsa:8503%09red/hsa:581%09red/hsa:7157%09red
+Hypoxia response via HIF activation	PANTHER	P00030	4	26	9.19E-06	9.62E-05	PIK3CA|PIK3R3|CREBBP|PTEN	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00030
+Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	Reactome	R-HSA-5693554	4	26	9.19E-06	9.62E-05	RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693554
+DNA Double-Strand Break Repair	Reactome	R-HSA-5693532	7	166	1.27E-05	0.000131779	UBE2I|RBBP8|TP53|RAD51AP1|RAD51|EYA4|RAD51C	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693532
+Cytosolic DNA-sensing pathway	KEGG PATHWAY	hsa04623	5	63	1.32E-05	0.000134913	IRF3|MAVS|IRF7|IKBKG|IKBKE	http://www.genome.jp/kegg-bin/show_pathway?hsa04623/hsa:57506%09red/hsa:3665%09red/hsa:8517%09red/hsa:9641%09red/hsa:3661%09red
+TNF signaling pathway	KEGG PATHWAY	hsa04668	6	112	1.49E-05	0.000150572	PIK3CA|BIRC2|TNF|PIK3R3|IKBKG|MAP3K14	http://www.genome.jp/kegg-bin/show_pathway?hsa04668/hsa:8517%09red/hsa:8503%09red/hsa:7124%09red/hsa:5290%09red/hsa:329%09red/hsa:9020%09red
+PIP3 activates AKT signaling	Reactome	R-HSA-1257604	8	247	1.93E-05	0.000193721	TP53|FRK|PSMD4|PTEN|FOXO1|PIK3R3|PIK3CA|CBX4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1257604
+Renal cell carcinoma	KEGG PATHWAY	hsa05211	5	69	1.99E-05	0.000197768	PIK3CA|ETS1|PIK3R3|CREBBP|HLF	http://www.genome.jp/kegg-bin/show_pathway?hsa05211/hsa:5290%09red/hsa:1387%09red/hsa:2113%09red/hsa:8503%09red/hsa:2034%09red
+Sphingolipid signaling pathway	KEGG PATHWAY	hsa04071	6	119	2.06E-05	0.000202555	TP53|PIK3CA|BAX|PTEN|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04071/hsa:8503%09red/hsa:5290%09red/hsa:581%09red/hsa:7157%09red/hsa:5728%09red/hsa:7124%09red
+TAK1 activates NFkB by phosphorylation and activation of IKKs complex	Reactome	R-HSA-445989	4	33	2.16E-05	0.000206117	S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-445989
+Resolution of D-loop Structures through Holliday Junction Intermediates	Reactome	R-HSA-5693568	4	33	2.16E-05	0.000206117	RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693568
+Oncogene Induced Senescence	Reactome	R-HSA-2559585	4	33	2.16E-05	0.000206117	E2F3|ETS1|TP53|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559585
+Yersinia infection	KEGG PATHWAY	hsa05135	6	121	2.26E-05	0.000212922	IRF3|TICAM1|PIK3CA|TNF|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05135/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:5290%09red/hsa:7124%09red/hsa:148022%09red
+Regulation of FOXO transcriptional activity by acetylation	Reactome	R-HSA-9617629	3	10	2.34E-05	0.00021882	FOXO1|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9617629
+Negative regulators of DDX58/IFIH1 signaling	Reactome	R-HSA-936440	4	34	2.41E-05	0.000220829	IRF3|MAVS|RNF216|IKBKE	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-936440
+Resolution of D-Loop Structures	Reactome	R-HSA-5693537	4	34	2.41E-05	0.000220829	RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693537
+Platinum drug resistance	KEGG PATHWAY	hsa01524	5	73	2.57E-05	0.000233823	PIK3CA|PIK3R3|TP53|BAX|BIRC2	http://www.genome.jp/kegg-bin/show_pathway?hsa01524/hsa:5290%09red/hsa:329%09red/hsa:8503%09red/hsa:581%09red/hsa:7157%09red
+Insulin/IGF pathway-protein kinase B signaling cascade	PANTHER	P00033	4	35	2.67E-05	0.000240637	PIK3CA|FOXO1|PIK3R3|PTEN	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00033
+"Cell Cycle, Mitotic"	Reactome	R-HSA-69278	11	525	2.91E-05	0.000259502	MAD2L1|VRK1|TP53|PSMD4|RB1|FOXM1|CDC14A|E2F3|RANBP2|CCNH|CLASP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69278
+Regulation of gene expression by Hypoxia-inducible Factor	Reactome	R-HSA-1234158	3	11	2.97E-05	0.000262313	CITED2|CREBBP|HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1234158
+Osteoclast differentiation	KEGG PATHWAY	hsa04380	6	128	3.05E-05	0.0002654	PIK3CA|FHL2|TNF|PIK3R3|IKBKG|MAP3K14	http://www.genome.jp/kegg-bin/show_pathway?hsa04380/hsa:8517%09red/hsa:8503%09red/hsa:5290%09red/hsa:7124%09red/hsa:2274%09red/hsa:9020%09red
+Signaling by Nuclear Receptors	Reactome	R-HSA-9006931	8	264	3.06E-05	0.0002654	CRABP2|FKBP5|PIK3CA|KAT2B|DDX5|CBFB|PIK3R3|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006931
+RUNX1 regulates transcription of genes involved in differentiation of HSCs	Reactome	R-HSA-8939236	6	129	3.18E-05	0.000273706	TCF3|PSMD4|LMO2|CBFB|TCF12|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939236
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	Reactome	R-HSA-8864260	4	38	3.60E-05	0.000306895	UBE2I|CITED2|TFAP2C|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8864260
+Activation of the TFAP2 (AP-2) family of transcription factors	Reactome	R-HSA-8866907	3	12	3.70E-05	0.000312492	CITED2|TFAP2C|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866907
+Transcriptional Regulation by TP53	Reactome	R-HSA-3700989	9	359	4.13E-05	0.000345971	RBBP8|TP53|BAX|TRIAP1|PTEN|EHMT2|PLAGL1|CCNH|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3700989
+Advanced glycosylation endproduct receptor signaling	Reactome	R-HSA-879415	3	13	4.54E-05	0.000376748	S100A12|AGER|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-879415
+Homologous recombination	KEGG PATHWAY	hsa03440	4	41	4.74E-05	0.000390505	RAD54L|RBBP8|RAD51C|RAD51	http://www.genome.jp/kegg-bin/show_pathway?hsa03440/hsa:5889%09red/hsa:5888%09red/hsa:8438%09red/hsa:5932%09red
+TNF signaling	Reactome	R-HSA-75893	4	42	5.18E-05	0.000419064	TNF|IKBKG|BIRC2|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75893
+Homologous DNA Pairing and Strand Exchange	Reactome	R-HSA-5693579	4	42	5.18E-05	0.000419064	RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693579
+Intracellular signaling by second messengers	Reactome	R-HSA-9006925	8	288	5.55E-05	0.000445379	TP53|FRK|PSMD4|PTEN|FOXO1|PIK3R3|PIK3CA|CBX4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006925
+Human immunodeficiency virus 1 infection	KEGG PATHWAY	hsa05170	7	212	5.74E-05	0.00045711	IRF3|NFATC4|PIK3CA|BAX|TNF|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05170/hsa:8517%09red/hsa:8503%09red/hsa:3661%09red/hsa:5290%09red/hsa:4776%09red/hsa:581%09red/hsa:7124%09red
+TP53 Regulates Transcription of Cell Death Genes	Reactome	R-HSA-5633008	4	44	6.13E-05	0.00048406	TP53|BAX|CREBBP|TRIAP1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5633008
+PD-L1 expression and PD-1 checkpoint pathway in cancer	KEGG PATHWAY	hsa05235	5	89	6.32E-05	0.000494964	PTEN|TICAM1|PIK3R3|IKBKG|PIK3CA	http://www.genome.jp/kegg-bin/show_pathway?hsa05235/hsa:5290%09red/hsa:5728%09red/hsa:148022%09red/hsa:8503%09red/hsa:8517%09red
+Deubiquitination	Reactome	R-HSA-5688426	8	296	6.69E-05	0.000519186	TP53|PSMD4|KAT2B|BIRC2|VCP|PTEN|IKBKG|MAVS	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5688426
+ESR-mediated signaling	Reactome	R-HSA-8939211	7	221	7.39E-05	0.000569664	FKBP5|PIK3CA|KAT2B|DDX5|CBFB|PIK3R3|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939211
+Transcriptional regulation by RUNX3	Reactome	R-HSA-8878159	5	93	7.71E-05	0.000581915	PSMD4|CBFB|TP53|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878159
+FOXO-mediated transcription of cell death genes	Reactome	R-HSA-9614657	3	16	7.78E-05	0.000581915	CITED2|FOXO1|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9614657
+Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells	Reactome	R-HSA-210744	3	16	7.78E-05	0.000581915	ONECUT1|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-210744
+PI3 kinase pathway	PANTHER	P00048	4	47	7.80E-05	0.000581915	PIK3CA|FOXO1|PIK3R3|PTEN	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00048
+Signaling by EGFR	Reactome	R-HSA-177929	4	48	8.42E-05	0.000619258	PTPN3|PIK3CA|SH3GL1|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-177929
+Toll Like Receptor TLR6:TLR2 Cascade	Reactome	R-HSA-168188	5	95	8.49E-05	0.000619258	CD14|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168188
+MyD88:MAL(TIRAP) cascade initiated on plasma membrane	Reactome	R-HSA-166058	5	95	8.49E-05	0.000619258	CD14|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166058
+SUMOylation of transcription factors	Reactome	R-HSA-3232118	3	17	9.12E-05	0.000655353	UBE2I|TFAP2C|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3232118
+RIP-mediated NFkB activation via ZBP1	Reactome	R-HSA-1810476	3	17	9.12E-05	0.000655353	TLR3|IKBKG|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1810476
+Toll Like Receptor 2 (TLR2) Cascade	Reactome	R-HSA-181438	5	98	9.77E-05	0.000691465	CD14|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-181438
+Toll Like Receptor TLR1:TLR2 Cascade	Reactome	R-HSA-168179	5	98	9.77E-05	0.000691465	CD14|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168179
+Potassium Channels	Reactome	R-HSA-1296071	5	99	0.000102221	0.00071853	KCNAB1|KCNA2|KCNA3|KCNJ15|KCNK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296071
+TNFR2 non-canonical NF-kB pathway	Reactome	R-HSA-5668541	5	100	0.000106952	0.000746336	PSMD4|TNF|MAP3K14|BIRC2|EDAR	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5668541
+Interleukin-1 signaling	Reactome	R-HSA-9020702	5	101	0.000111848	0.000774893	PSMD4|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9020702
+Chagas disease (American trypanosomiasis)	KEGG PATHWAY	hsa05142	5	103	0.000122157	0.000834305	TICAM1|TNF|PIK3R3|IKBKG|PIK3CA	http://www.genome.jp/kegg-bin/show_pathway?hsa05142/hsa:5290%09red/hsa:7124%09red/hsa:148022%09red/hsa:8503%09red/hsa:8517%09red
+T cell receptor signaling pathway	KEGG PATHWAY	hsa04660	5	103	0.000122157	0.000834305	PIK3CA|TNF|PIK3R3|MAP3K14|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04660/hsa:5290%09red/hsa:7124%09red/hsa:8517%09red/hsa:8503%09red/hsa:9020%09red
+Signaling by ERBB4	Reactome	R-HSA-1236394	4	55	0.00013812	0.000936686	PIK3CA|S100B|GFAP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1236394
+Insulin resistance	KEGG PATHWAY	hsa04931	5	108	0.000151118	0.001017671	PIK3CA|FOXO1|TNF|PIK3R3|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04931/hsa:5290%09red/hsa:7124%09red/hsa:5728%09red/hsa:8503%09red/hsa:2308%09red
+CCKR signaling map	PANTHER	P06959	6	175	0.000161078	0.001077208	BIRC2|BAX|PTEN|FOXO1|MAP3K14|SERPINB2	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P06959
+CD28 dependent PI3K/Akt signaling	Reactome	R-HSA-389357	3	22	0.00018102	0.001202222	PIK3CA|PIK3R3|MAP3K14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-389357
+RUNX2 regulates osteoblast differentiation	Reactome	R-HSA-8940973	3	23	0.000203968	0.001345353	ZNF521|CBFB|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8940973
+Signaling by Receptor Tyrosine Kinases	Reactome	R-HSA-9006934	9	458	0.000248618	0.001628701	PIK3CA|BAX|CDC37|PIK3R3|ADAM17|PTPN3|GFAP|SH3GL1|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006934
+FOXO-mediated transcription	Reactome	R-HSA-9614085	4	65	0.000253508	0.001649516	CITED2|FOXO1|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9614085
+HDR through Homologous Recombination (HRR)	Reactome	R-HSA-5685942	4	67	0.000282978	0.001816717	RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5685942
+Central carbon metabolism in cancer	KEGG PATHWAY	hsa05230	4	69	0.000314828	0.00200781	PIK3CA|PIK3R3|TP53|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa05230/hsa:5290%09red/hsa:5728%09red/hsa:8503%09red/hsa:7157%09red
+Neutrophil degranulation	Reactome	R-HSA-6798695	9	478	0.000337579	0.002138741	MVP|CD55|FRK|PGM1|VCP|S100A11|CD14|MNDA|S100A12	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6798695
+SUMOylation of DNA damage response and repair proteins	Reactome	R-HSA-3108214	4	71	0.000349168	0.002197703	UBE2I|CBX4|EID3|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3108214
+p53 signaling pathway	KEGG PATHWAY	hsa04115	4	72	0.000367306	0.002280353	PTEN|PPM1D|TP53|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa04115/hsa:5728%09red/hsa:8493%09red/hsa:581%09red/hsa:7157%09red
+FoxO signaling pathway	KEGG PATHWAY	hsa04068	5	132	0.000369403	0.002280353	PIK3CA|FOXO1|PIK3R3|CREBBP|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04068/hsa:5290%09red/hsa:1387%09red/hsa:5728%09red/hsa:8503%09red/hsa:2308%09red
+HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)	Reactome	R-HSA-5693567	5	132	0.000369403	0.002280353	UBE2I|RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693567
+LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production	Reactome	R-HSA-3134973	2	5	0.000400972	0.002459468	IRF3|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3134973
+Cellular response to hypoxia	Reactome	R-HSA-1234174	4	74	0.000405587	0.002472027	CITED2|HLF|CREBBP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1234174
+Axon guidance mediated by netrin	PANTHER	P00009	3	30	0.000418415	0.002518336	PIK3CA|NFATC4|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00009
+TNFR1-induced NFkappaB signaling pathway	Reactome	R-HSA-5357956	3	30	0.000418415	0.002518336	TNF|BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5357956
+PTEN Regulation	Reactome	R-HSA-6807070	5	137	0.000435309	0.00260374	FRK|PSMD4|CBX4|TP53|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6807070
+Pertussis	KEGG PATHWAY	hsa05133	4	76	0.000446635	0.002622012	IRF3|TICAM1|CD14|TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05133/hsa:929%09red/hsa:7124%09red/hsa:148022%09red/hsa:3661%09red
+Homology Directed Repair	Reactome	R-HSA-5693538	5	138	0.000449488	0.002622012	UBE2I|RAD51AP1|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693538
+Interleukin-1 family signaling	Reactome	R-HSA-446652	5	138	0.000449488	0.002622012	PSMD4|S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-446652
+RUNX2 regulates bone development	Reactome	R-HSA-8941326	3	31	0.000457423	0.002622012	ZNF521|CBFB|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941326
+CD28 co-stimulation	Reactome	R-HSA-389356	3	31	0.000457423	0.002622012	PIK3CA|PIK3R3|MAP3K14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-389356
+SUMOylation of SUMOylation proteins	Reactome	R-HSA-4085377	3	31	0.000457423	0.002622012	UBE2I|TOPORS|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4085377
+Nuclear signaling by ERBB4	Reactome	R-HSA-1251985	3	31	0.000457423	0.002622012	S100B|GFAP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1251985
+Fluid shear stress and atherosclerosis	KEGG PATHWAY	hsa05418	5	139	0.000464013	0.002644048	PIK3CA|TNF|PIK3R3|TP53|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05418/hsa:5290%09red/hsa:7124%09red/hsa:8517%09red/hsa:8503%09red/hsa:7157%09red
+Signaling pathways regulating pluripotency of stem cells	KEGG PATHWAY	hsa04550	5	140	0.000478888	0.002696895	PIK3CA|ONECUT1|PIK3R3|ID2|TCF3	http://www.genome.jp/kegg-bin/show_pathway?hsa04550/hsa:5290%09red/hsa:6929%09red/hsa:8503%09red/hsa:3175%09red/hsa:3398%09red
+Death Receptor Signalling	Reactome	R-HSA-73887	5	140	0.000478888	0.002696895	TNF|IKBKG|BIRC2|LINGO1|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73887
+Regulation of TNFR1 signaling	Reactome	R-HSA-5357905	3	32	0.000498688	0.002792074	TNF|BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5357905
+EGFR tyrosine kinase inhibitor resistance	KEGG PATHWAY	hsa01521	4	79	0.000513639	0.002859158	PIK3CA|PIK3R3|BAX|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa01521/hsa:5290%09red/hsa:5728%09red/hsa:8503%09red/hsa:581%09red
+TLR3-mediated TICAM1-dependent programmed cell death	Reactome	R-HSA-9013957	2	6	0.000533077	0.002933448	TLR3|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9013957
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	Reactome	R-HSA-8939246	2	6	0.000533077	0.002933448	CBFB|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939246
+Adaptive Immune System	Reactome	R-HSA-1280218	11	748	0.000593263	0.003246095	UBE4A|PSMD4|FBXO11|PTEN|CD14|PIK3R3|PIK3CA|FBXO7|MAP3K14|TRIP12|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1280218
+Transcriptional regulation of white adipocyte differentiation	Reactome	R-HSA-381340	4	83	0.000613712	0.003339007	TNF|CREBBP|EBF1|MED17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-381340
+Transcriptional Regulation by E2F6	Reactome	R-HSA-8953750	3	35	0.000636558	0.003443849	EHMT2|RBBP8|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8953750
+Toll Like Receptor 5 (TLR5) Cascade	Reactome	R-HSA-168176	4	85	0.000668604	0.003557267	S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168176
+Toll Like Receptor 10 (TLR10) Cascade	Reactome	R-HSA-168142	4	85	0.000668604	0.003557267	S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168142
+MyD88 cascade initiated on plasma membrane	Reactome	R-HSA-975871	4	85	0.000668604	0.003557267	S100A12|AGER|IKBKG|S100B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975871
+Signaling by NOTCH	Reactome	R-HSA-157118	6	231	0.000676372	0.003578825	TP53|PSMD4|KAT2B|ADAM17|E2F3|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-157118
+Colorectal cancer	KEGG PATHWAY	hsa05210	4	86	0.000697313	0.003669469	PIK3CA|PIK3R3|TP53|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa05210/hsa:5290%09red/hsa:8503%09red/hsa:581%09red/hsa:7157%09red
+Thyroid cancer	KEGG PATHWAY	hsa05216	3	37	0.000740709	0.00385569	TP53|PAX8|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa05216/hsa:7849%09red/hsa:7157%09red/hsa:581%09red
+RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known	Reactome	R-HSA-8939243	3	37	0.000740709	0.00385569	CBX4|CBFB|SMARCB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939243
+MAPK6/MAPK4 signaling	Reactome	R-HSA-5687128	4	88	0.000757332	0.003900059	PSMD4|FOXO1|ETV4|CDC14A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5687128
+PI3K/AKT Signaling in Cancer	Reactome	R-HSA-2219528	4	88	0.000757332	0.003900059	PIK3CA|FOXO1|PIK3R3|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2219528
+Presynaptic phase of homologous DNA pairing and strand exchange	Reactome	R-HSA-5693616	3	39	0.000855112	0.004380174	RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693616
+Necroptosis	KEGG PATHWAY	hsa04217	5	162	0.00090625	0.004617558	TLR3|TNF|BIRC2|BAX|TICAM1	http://www.genome.jp/kegg-bin/show_pathway?hsa04217/hsa:7098%09red/hsa:329%09red/hsa:148022%09red/hsa:581%09red/hsa:7124%09red
+Pre-NOTCH Transcription and Translation	Reactome	R-HSA-1912408	4	93	0.00092321	0.004679217	E2F3|TP53|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1912408
+Bladder cancer	KEGG PATHWAY	hsa05219	3	41	0.000980148	0.004941796	E2F3|TP53|RB1	http://www.genome.jp/kegg-bin/show_pathway?hsa05219/hsa:1871%09red/hsa:5925%09red/hsa:7157%09red
+Amoebiasis	KEGG PATHWAY	hsa05146	4	95	0.000996195	0.004996539	PIK3CA|CD14|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa05146/hsa:5290%09red/hsa:7124%09red/hsa:929%09red/hsa:8503%09red
+Downstream TCR signaling	Reactome	R-HSA-202424	4	96	0.001034166	0.005160114	PTEN|PSMD4|IKBKG|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-202424
+G1 Phase	Reactome	R-HSA-69236	3	43	0.001116188	0.005456289	CCNH|E2F3|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69236
+SUMOylation of RNA binding proteins	Reactome	R-HSA-4570464	3	43	0.001116188	0.005456289	UBE2I|CBX4|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4570464
+Cyclin D associated events in G1	Reactome	R-HSA-69231	3	43	0.001116188	0.005456289	CCNH|E2F3|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69231
+Voltage gated Potassium channels	Reactome	R-HSA-1296072	3	43	0.001116188	0.005456289	KCNAB1|KCNA2|KCNA3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296072
+Zinc influx into cells by the SLC39 gene family	Reactome	R-HSA-442380	2	10	0.001242019	0.005980321	SLC39A1|SLC39A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-442380
+TRIF-mediated programmed cell death	Reactome	R-HSA-2562578	2	10	0.001242019	0.005980321	TICAM1|CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2562578
+Negative regulation of activity of TFAP2 (AP-2) family transcription factors	Reactome	R-HSA-8866904	2	10	0.001242019	0.005980321	UBE2I|TFAP2C	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866904
+Type II diabetes mellitus	KEGG PATHWAY	hsa04930	3	46	0.001341655	0.006396107	PIK3CA|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04930/hsa:5290%09red/hsa:7124%09red/hsa:8503%09red
+RNA Polymerase I Transcription Initiation	Reactome	R-HSA-73762	3	46	0.001341655	0.006396107	EHMT2|CCNH|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73762
+"TICAM1,TRAF6-dependent induction of TAK1 complex"	Reactome	R-HSA-9014325	2	11	0.001463585	0.006908983	TLR3|TICAM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9014325
+Vitamin D (calciferol) metabolism	Reactome	R-HSA-196791	2	11	0.001463585	0.006908983	UBE2I|DBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-196791
+Class I MHC mediated antigen processing & presentation	Reactome	R-HSA-983169	7	370	0.001501525	0.007009605	UBE4A|PSMD4|FBXO11|CD14|IKBKG|FBXO7|TRIP12	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983169
+Notch signaling pathway	KEGG PATHWAY	hsa04330	3	48	0.001506737	0.007009605	KAT2B|CREBBP|ADAM17	http://www.genome.jp/kegg-bin/show_pathway?hsa04330/hsa:8850%09red/hsa:6868%09red/hsa:1387%09red
+@@Notch signaling pathway	PANTHER	P00045	1	40	0.165961934	0.211403893	ADAM17	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00045
+TP53 Regulates Transcription of Cell Cycle Genes	Reactome	R-HSA-6791312	3	48	0.001506737	0.007009605	PLAGL1|TP53|BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6791312
+Pre-NOTCH Expression and Processing	Reactome	R-HSA-1912422	4	109	0.001624473	0.007520998	E2F3|TP53|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1912422
+RNA Polymerase I Transcription	Reactome	R-HSA-73864	4	110	0.001677818	0.007730807	PTRF|EHMT2|CCNH|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73864
+NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10	Reactome	R-HSA-933543	2	12	0.001702568	0.007807489	MAVS|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-933543
+Metabolism of lipids	Reactome	R-HSA-556833	10	728	0.001723748	0.007867155	UBE2I|PIK3CA|NPAS2|FHL2|PTEN|PIK3R3|MED17|DBP|CREBBP|DHCR24	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-556833
+Amyotrophic lateral sclerosis (ALS)	KEGG PATHWAY	hsa05014	3	51	0.001777338	0.008035571	TNF|TP53|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa05014/hsa:7124%09red/hsa:581%09red/hsa:7157%09red
+Apoptotic execution phase	Reactome	R-HSA-75153	3	51	0.001777338	0.008035571	HMGB2|BIRC2|ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75153
+PPARA activates gene expression	Reactome	R-HSA-1989781	4	114	0.001903386	0.008565237	FHL2|NPAS2|CREBBP|MED17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1989781
+Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	Reactome	R-HSA-400206	4	115	0.001962895	0.008757703	FHL2|NPAS2|CREBBP|MED17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-400206
+Mitotic Anaphase	Reactome	R-HSA-68882	5	194	0.001964345	0.008757703	PSMD4|MAD2L1|VRK1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68882
+Synthesis of PIPs at the plasma membrane	Reactome	R-HSA-1660499	3	53	0.001973514	0.008758036	PIK3CA|PIK3R3|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1660499
+Mitotic Metaphase and Anaphase	Reactome	R-HSA-2555396	5	195	0.002007638	0.008828106	PSMD4|MAD2L1|VRK1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2555396
+Mitotic G2-G2/M phases	Reactome	R-HSA-453274	5	195	0.002007638	0.008828106	PSMD4|TP53|E2F3|FOXM1|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453274
+Meiosis	Reactome	R-HSA-1500620	4	116	0.00202368	0.008858198	UBE2I|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1500620
+Cell Cycle Checkpoints	Reactome	R-HSA-69620	6	289	0.002067306	0.009008216	MAD2L1|TP53|CLASP2|PSMD4|RBBP8|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69620
+TCR signaling	Reactome	R-HSA-202403	4	117	0.002085753	0.009047658	PTEN|PSMD4|IKBKG|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-202403
+Legionellosis	KEGG PATHWAY	hsa05134	3	55	0.002182661	0.009383495	VCP|CD14|TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05134/hsa:7124%09red/hsa:7415%09red/hsa:929%09red
+"Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways"	Reactome	R-HSA-168643	3	55	0.002182661	0.009383495	SUGT1|BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168643
+Neurotrophin signaling pathway	KEGG PATHWAY	hsa04722	4	119	0.002213822	0.009427926	PIK3CA|PIK3R3|TP53|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa04722/hsa:5290%09red/hsa:8503%09red/hsa:581%09red/hsa:7157%09red
+Constitutive Signaling by EGFRvIII	Reactome	R-HSA-5637810	2	14	0.002232157	0.009427926	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5637810
+RUNX3 regulates NOTCH signaling	Reactome	R-HSA-8941856	2	14	0.002232157	0.009427926	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941856
+Signaling by EGFRvIII in Cancer	Reactome	R-HSA-5637812	2	14	0.002232157	0.009427926	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5637812
+MAPK signaling pathway	KEGG PATHWAY	hsa04010	6	295	0.002285369	0.009610524	TP53|MAP3K4|CD14|TNF|MAP3K14|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04010/hsa:8517%09red/hsa:7124%09red/hsa:7157%09red/hsa:4216%09red/hsa:929%09red/hsa:9020%09red
+Proteoglycans in cancer	KEGG PATHWAY	hsa05205	5	203	0.00237949	0.00985567	DDX5|TNF|PIK3R3|TP53|PIK3CA	http://www.genome.jp/kegg-bin/show_pathway?hsa05205/hsa:5290%09red/hsa:1655%09red/hsa:8503%09red/hsa:7157%09red/hsa:7124%09red
+Signaling by NOTCH1 in Cancer	Reactome	R-HSA-2644603	3	57	0.00240507	0.00985567	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2644603
+Constitutive Signaling by NOTCH1 PEST Domain Mutants	Reactome	R-HSA-2644606	3	57	0.00240507	0.00985567	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2644606
+Signaling by NOTCH1 PEST Domain Mutants in Cancer	Reactome	R-HSA-2644602	3	57	0.00240507	0.00985567	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2644602
+Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer	Reactome	R-HSA-2894858	3	57	0.00240507	0.00985567	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2894858
+Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants	Reactome	R-HSA-2894862	3	57	0.00240507	0.00985567	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2894862
+MicroRNAs in cancer	KEGG PATHWAY	hsa05206	6	299	0.002440087	0.009956795	UBE2I|TP53|PIK3CA|PTEN|E2F3|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05206/hsa:5290%09red/hsa:1387%09red/hsa:7157%09red/hsa:5728%09red/hsa:1871%09red/hsa:7329%09red
+Signaling by NTRK3 (TRKC)	Reactome	R-HSA-9034015	2	15	0.002522454	0.010249465	PIK3CA|BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9034015
+PDGF signaling pathway	PANTHER	P00047	4	124	0.002557516	0.010348269	PIK3CA|ETS1|PIK3R3|MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00047
+Lysine degradation	KEGG PATHWAY	hsa00310	3	59	0.002641018	0.010641425	PLOD3|EHMT2|PRDM2	http://www.genome.jp/kegg-bin/show_pathway?hsa00310/hsa:10919%09red/hsa:8985%09red/hsa:7799%09red
+TRAF6-mediated induction of TAK1 complex within TLR4 complex	Reactome	R-HSA-937072	2	16	0.002829548	0.011167439	TICAM1|CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-937072
+IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation	Reactome	R-HSA-975163	2	16	0.002829548	0.011167439	TICAM1|CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975163
+Caspase activation via Death Receptors in the presence of ligand	Reactome	R-HSA-140534	2	16	0.002829548	0.011167439	TICAM1|CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-140534
+Formation of Senescence-Associated Heterochromatin Foci (SAHF)	Reactome	R-HSA-2559584	2	16	0.002829548	0.011167439	TP53|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559584
+SUMOylation of DNA methylation proteins	Reactome	R-HSA-4655427	2	16	0.002829548	0.011167439	UBE2I|CBX4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4655427
+VEGF signaling pathway	PANTHER	P00056	3	62	0.003020911	0.011825761	PIK3CA|ETS1|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00056
+@@VEGF signaling pathway	KEGG PATHWAY	hsa04370	2	59	0.029907292	0.070256801	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04370/hsa:5290%09red/hsa:8503%09red
+Longevity regulating pathway - multiple species	KEGG PATHWAY	hsa04213	3	62	0.003020911	0.011825761	PIK3CA|FOXO1|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04213/hsa:5290%09red/hsa:8503%09red/hsa:2308%09red
+Zinc transporters	Reactome	R-HSA-435354	2	17	0.003153288	0.012244419	SLC39A1|SLC39A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-435354
+TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway	Reactome	R-HSA-5676594	2	17	0.003153288	0.012244419	MAP3K14|BIRC2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5676594
+Ub-specific processing proteases	Reactome	R-HSA-5689880	5	219	0.003269773	0.01264575	PTEN|PSMD4|TP53|BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689880
+Hedgehog ligand biogenesis	Reactome	R-HSA-5358346	3	64	0.003291859	0.012680241	VCP|PSMD4|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5358346
+Costimulation by the CD28 family	Reactome	R-HSA-388841	3	65	0.003432731	0.013170199	PIK3CA|PIK3R3|MAP3K14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-388841
+Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants	Reactome	R-HSA-1236382	2	18	0.003493521	0.013245119	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1236382
+Signaling by Ligand-Responsive EGFR Variants in Cancer	Reactome	R-HSA-5637815	2	18	0.003493521	0.013245119	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5637815
+TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest	Reactome	R-HSA-6804114	2	18	0.003493521	0.013245119	TP53|BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804114
+SUMOylation of chromatin organization proteins	Reactome	R-HSA-4551638	3	66	0.003577241	0.013509346	UBE2I|CBX4|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4551638
+Ubiquitin mediated proteolysis	KEGG PATHWAY	hsa04120	4	137	0.003618959	0.013613506	UBE2I|UBE4A|TRIP12|BIRC2	http://www.genome.jp/kegg-bin/show_pathway?hsa04120/hsa:9320%09red/hsa:9354%09red/hsa:329%09red/hsa:7329%09red
+superpathway of inositol phosphate compounds	BioCyc	PWY-6371	3	67	0.003725418	0.013959447	PIK3CA|PIK3R3|PTEN	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-6371
+Regulation of gene expression in beta cells	Reactome	R-HSA-210745	2	19	0.003850097	0.014305866	FOXO1|HNF4A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-210745
+Regulation of TP53 Activity through Methylation	Reactome	R-HSA-6804760	2	19	0.003850097	0.014305866	EHMT2|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804760
+Fc epsilon RI signaling pathway	KEGG PATHWAY	hsa04664	3	68	0.003877291	0.014305866	PIK3CA|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04664/hsa:5290%09red/hsa:7124%09red/hsa:8503%09red
+Regulation of PTEN stability and activity	Reactome	R-HSA-8948751	3	68	0.003877291	0.014305866	FRK|PSMD4|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8948751
+C-type lectin receptors (CLRs)	Reactome	R-HSA-5621481	4	140	0.003900562	0.014336798	PSMD4|MAP3K14|IKBKG|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5621481
+Reproduction	Reactome	R-HSA-1474165	4	141	0.00399763	0.014637712	UBE2I|RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474165
+Circadian Clock	Reactome	R-HSA-400253	3	69	0.004032886	0.014710868	MAML2|NPAS2|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-400253
+Neddylation	Reactome	R-HSA-8951664	5	232	0.004152404	0.01508968	COPS2|PSMD4|FBXO11|HLF|FBXO7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8951664
+Ras Pathway	PANTHER	P04393	3	70	0.004192231	0.015117552	PIK3CA|ETS1|MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P04393
+Epithelial cell signaling in Helicobacter pylori infection	KEGG PATHWAY	hsa05120	3	70	0.004192231	0.015117552	MAP3K14|IKBKG|ADAM17	http://www.genome.jp/kegg-bin/show_pathway?hsa05120/hsa:6868%09red/hsa:8517%09red/hsa:9020%09red
+NOTCH4 Intracellular Domain Regulates Transcription	Reactome	R-HSA-9013695	2	20	0.004222868	0.015117552	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9013695
+TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain	Reactome	R-HSA-6804115	2	20	0.004222868	0.015117552	PLAGL1|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804115
+Signaling by NOTCH1	Reactome	R-HSA-1980143	3	71	0.004355353	0.015534093	KAT2B|CREBBP|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1980143
+Regulation of signaling by CBL	Reactome	R-HSA-912631	2	21	0.004611684	0.016277649	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-912631
+Metabolism of steroids	Reactome	R-HSA-8957322	4	147	0.004614536	0.016277649	UBE2I|DBP|CREBBP|DHCR24	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8957322
+Mitotic G1-G1/S phases	Reactome	R-HSA-453279	4	147	0.004614536	0.016277649	PSMD4|E2F3|RB1|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453279
+Non-alcoholic fatty liver disease (NAFLD)	KEGG PATHWAY	hsa04932	4	149	0.004833608	0.016926418	PIK3CA|TNF|PIK3R3|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa04932/hsa:5290%09red/hsa:7124%09red/hsa:8503%09red/hsa:581%09red
+Estrogen-dependent gene expression	Reactome	R-HSA-9018519	4	149	0.004833608	0.016926418	DDX5|CBFB|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9018519
+Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks	Reactome	R-HSA-5693565	3	76	0.005228499	0.018242916	UBE2I|EYA4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693565
+mTOR signaling pathway	KEGG PATHWAY	hsa04150	4	153	0.005292493	0.018399532	PIK3CA|TNF|PIK3R3|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04150/hsa:5290%09red/hsa:7124%09red/hsa:5728%09red/hsa:8503%09red
+DNA Double Strand Break Response	Reactome	R-HSA-5693606	3	77	0.005414806	0.018757043	UBE2I|EYA4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693606
+PI3K-Akt signaling pathway	KEGG PATHWAY	hsa04151	6	354	0.00545932	0.01884346	TP53|PIK3CA|CDC37|PTEN|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04151/hsa:8517%09red/hsa:8503%09red/hsa:5290%09red/hsa:7157%09red/hsa:5728%09red/hsa:11140%09red
+T cell activation	PANTHER	P00053	3	78	0.005605059	0.019277398	PIK3CA|NFATC4|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00053
+Complement and coagulation cascades	KEGG PATHWAY	hsa04610	3	79	0.00579928	0.019874401	SERPINB2|MBL2|CD55	http://www.genome.jp/kegg-bin/show_pathway?hsa04610/hsa:5055%09red/hsa:4153%09red/hsa:1604%09red
+NOTCH3 Intracellular Domain Regulates Transcription	Reactome	R-HSA-9013508	2	24	0.005872942	0.019984606	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9013508
+Signaling by EGFR in Cancer	Reactome	R-HSA-1643713	2	24	0.005872942	0.019984606	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1643713
+Signaling by NOTCH4	Reactome	R-HSA-9013694	3	80	0.005997492	0.020336565	PSMD4|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9013694
+Wnt signaling pathway	KEGG PATHWAY	hsa04310	4	160	0.006164049	0.020827996	CACYBP|NFATC4|TP53|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04310/hsa:27101%09red/hsa:1387%09red/hsa:4776%09red/hsa:7157%09red
+@@Wnt signaling pathway	PANTHER	P00057	5	294	0.010782363	0.031753565	TP53|NFATC4|TNF|SMARCB1|CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00057
+Cyclin A/B1/B2 associated events during G2/M transition	Reactome	R-HSA-69273	2	25	0.00632448	0.021295364	CCNH|FOXM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69273
+B cell receptor signaling pathway	KEGG PATHWAY	hsa04662	3	82	0.006405969	0.02134584	PIK3CA|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04662/hsa:5290%09red/hsa:8517%09red/hsa:8503%09red
+ER-Phagosome pathway	Reactome	R-HSA-1236974	3	82	0.006405969	0.02134584	PSMD4|CD14|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1236974
+Cyclin E associated events during G1/S transition 	Reactome	R-HSA-69202	3	82	0.006405969	0.02134584	PSMD4|CCNH|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69202
+Jak-STAT signaling pathway	KEGG PATHWAY	hsa04630	4	162	0.006429529	0.02135047	PIK3CA|GFAP|PIK3R3|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04630/hsa:5290%09red/hsa:1387%09red/hsa:2670%09red/hsa:8503%09red
+Maturity onset diabetes of the young	KEGG PATHWAY	hsa04950	2	26	0.006791337	0.022109596	ONECUT1|HNF4A	http://www.genome.jp/kegg-bin/show_pathway?hsa04950/hsa:3175%09red/hsa:6927%09red
+Interleukin receptor SHC signaling	Reactome	R-HSA-912526	2	26	0.006791337	0.022109596	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-912526
+Caspase activation via extrinsic apoptotic signalling pathway	Reactome	R-HSA-5357769	2	26	0.006791337	0.022109596	TICAM1|CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5357769
+Metal ion SLC transporters	Reactome	R-HSA-425410	2	26	0.006791337	0.022109596	SLC39A1|SLC39A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425410
+Cyclin A:Cdk2-associated events at S phase entry	Reactome	R-HSA-69656	3	84	0.006830652	0.022109596	PSMD4|CCNH|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69656
+Global Genome Nucleotide Excision Repair (GG-NER)	Reactome	R-HSA-5696399	3	84	0.006830652	0.022109596	COPS2|UBE2I|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5696399
+PI Metabolism	Reactome	R-HSA-1483255	3	84	0.006830652	0.022109596	PIK3CA|PIK3R3|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1483255
+RNA transport	KEGG PATHWAY	hsa03013	4	165	0.006841807	0.022109596	UBE2I|THOC1|XPOT|RANBP2	http://www.genome.jp/kegg-bin/show_pathway?hsa03013/hsa:9984%09red/hsa:5903%09red/hsa:11260%09red/hsa:7329%09red
+APC/C-mediated degradation of cell cycle proteins	Reactome	R-HSA-174143	3	85	0.00704912	0.022627674	PSMD4|MAD2L1|CDC14A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174143
+Regulation of mitotic cell cycle	Reactome	R-HSA-453276	3	85	0.00704912	0.022627674	PSMD4|MAD2L1|CDC14A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453276
+Meiotic recombination	Reactome	R-HSA-912446	3	86	0.007271696	0.023040316	RBBP8|RAD51C|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-912446
+Cellular response to heat stress	Reactome	R-HSA-3371556	3	86	0.007271696	0.023040316	VCP|CREBBP|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371556
+"BMAL1:CLOCK,NPAS2 activates circadian gene expression"	Reactome	R-HSA-1368108	2	27	0.007273371	0.023040316	NPAS2|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1368108
+3-phosphoinositide biosynthesis	BioCyc	PWY-6352	2	27	0.007273371	0.023040316	PIK3CA|PIK3R3	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-6352
+Notch-HLH transcription pathway	Reactome	R-HSA-350054	2	28	0.00777044	0.024454033	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-350054
+Interconversion of nucleotide di- and triphosphates	Reactome	R-HSA-499943	2	28	0.00777044	0.024454033	AK1|DCTPP1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-499943
+M Phase	Reactome	R-HSA-68886	6	384	0.007954142	0.024950616	MAD2L1|VRK1|CLASP2|PSMD4|RB1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68886
+Myogenesis	Reactome	R-HSA-525793	2	29	0.008282405	0.02589596	TCF3|TCF12	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-525793
+EGFR downregulation	Reactome	R-HSA-182971	2	30	0.008809124	0.027365118	PTPN3|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-182971
+RNA Polymerase I Transcription Termination	Reactome	R-HSA-73863	2	30	0.008809124	0.027365118	PTRF|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73863
+IL-17 signaling pathway	KEGG PATHWAY	hsa04657	3	93	0.008946224	0.027701651	TNF|IKBKG|IKBKE	http://www.genome.jp/kegg-bin/show_pathway?hsa04657/hsa:7124%09red/hsa:8517%09red/hsa:9641%09red
+Tuberculosis	KEGG PATHWAY	hsa05152	4	179	0.008996861	0.027769156	CD14|TNF|BAX|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05152/hsa:7124%09red/hsa:1387%09red/hsa:929%09red/hsa:581%09red
+TGF-beta signaling pathway	KEGG PATHWAY	hsa04350	3	94	0.009202277	0.028132677	TNF|ID2|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04350/hsa:7124%09red/hsa:1387%09red/hsa:3398%09red
+@@TGF-beta signaling pathway	PANTHER	P00052	2	91	0.063848324	0.111425374	CITED2|CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00052
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	Reactome	R-HSA-141444	3	94	0.009202277	0.028132677	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141444
+Amplification of signal from the kinetochores	Reactome	R-HSA-141424	3	94	0.009202277	0.028132677	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141424
+Antifolate resistance	KEGG PATHWAY	hsa01523	2	31	0.00935046	0.028495232	TNF|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa01523/hsa:7124%09red/hsa:8517%09red
+Metabolism of nucleotides	Reactome	R-HSA-15869	3	95	0.009462585	0.028745959	HPRT1|DCTPP1|AK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-15869
+Negative regulation of the PI3K/AKT network	Reactome	R-HSA-199418	3	96	0.009727159	0.029456775	PIK3CA|PIK3R3|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199418
+Neuronal System	Reactome	R-HSA-112316	6	402	0.009796063	0.029572442	KCNJ15|KCNAB1|KCNK1|SIPA1L1|KCNA2|KCNA3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112316
+Hematopoietic cell lineage	KEGG PATHWAY	hsa04640	3	97	0.009996015	0.030081757	CD14|TNF|CD55	http://www.genome.jp/kegg-bin/show_pathway?hsa04640/hsa:7124%09red/hsa:929%09red/hsa:1604%09red
+Separation of Sister Chromatids	Reactome	R-HSA-2467813	4	186	0.010223085	0.030669255	PSMD4|MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2467813
+Antigen processing-Cross presentation	Reactome	R-HSA-1236975	3	98	0.010269164	0.030711817	PSMD4|CD14|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1236975
+Apoptosis - multiple species	KEGG PATHWAY	hsa04215	2	33	0.010476432	0.031154584	BIRC2|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa04215/hsa:329%09red/hsa:581%09red
+Progesterone-mediated oocyte maturation	KEGG PATHWAY	hsa04914	3	99	0.010546619	0.031154584	PIK3CA|MAD2L1|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04914/hsa:5290%09red/hsa:4085%09red/hsa:8503%09red
+Phosphatidylinositol signaling system	KEGG PATHWAY	hsa04070	3	99	0.010546619	0.031154584	PIK3CA|PIK3R3|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04070/hsa:5290%09red/hsa:5728%09red/hsa:8503%09red
+CLEC7A (Dectin-1) signaling	Reactome	R-HSA-5607764	3	99	0.010546619	0.031154584	PSMD4|MAP3K14|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5607764
+Chemokine signaling pathway	KEGG PATHWAY	hsa04062	4	190	0.010970042	0.032207774	CCL18|PIK3CA|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04062/hsa:5290%09red/hsa:8517%09red/hsa:8503%09red/hsa:6362%09red
+SUMOylation of ubiquitinylation proteins	Reactome	R-HSA-3232142	2	34	0.011060795	0.032375517	UBE2I|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3232142
+Metabolism	Reactome	R-HSA-1430728	17	2075	0.011451657	0.033418017	UBE2I|FHL2|DBP|PSMD4|HPRT1|MED17|NPAS2|PGM1|AZI2|PTEN|DCTPP1|PIK3CA|PIK3R3|RANBP2|AK1|CREBBP|DHCR24	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1430728
+G2/M Transition	Reactome	R-HSA-69275	4	193	0.011552773	0.03361124	PSMD4|TP53|FOXM1|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69275
+GPVI-mediated activation cascade	Reactome	R-HSA-114604	2	35	0.011659228	0.033818786	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-114604
+NOD1/2 Signaling Pathway	Reactome	R-HSA-168638	2	36	0.012271599	0.035488137	BIRC2|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168638
+Focal adhesion	KEGG PATHWAY	hsa04510	4	199	0.012777121	0.036838158	PIK3CA|PIK3R3|BIRC2|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04510/hsa:5290%09red/hsa:329%09red/hsa:5728%09red/hsa:8503%09red
+Aldosterone-regulated sodium reabsorption	KEGG PATHWAY	hsa04960	2	37	0.012897773	0.036838158	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04960/hsa:5290%09red/hsa:8503%09red
+HDR through Single Strand Annealing (SSA)	Reactome	R-HSA-5685938	2	37	0.012897773	0.036838158	RBBP8|RAD51	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5685938
+Apoptotic cleavage of cellular proteins	Reactome	R-HSA-111465	2	37	0.012897773	0.036838158	BIRC2|ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-111465
+Antigen processing: Ubiquitination & Proteasome degradation	Reactome	R-HSA-983168	5	308	0.012929696	0.036838158	PSMD4|UBE4A|FBXO11|TRIP12|FBXO7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983168
+Inflammation mediated by chemokine and cytokine signaling pathway	PANTHER	P00031	4	201	0.013202922	0.037498495	CCL18|PIK3CA|NFATC4|PTEN	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00031
+Interleukin-4 and Interleukin-13 signaling	Reactome	R-HSA-6785807	3	108	0.013239344	0.037498495	FOXO1|TNF|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6785807
+HIF-1 signaling pathway	KEGG PATHWAY	hsa04066	3	109	0.013560455	0.038183386	PIK3CA|PIK3R3|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04066/hsa:5290%09red/hsa:1387%09red/hsa:8503%09red
+RNA Polymerase I Promoter Clearance	Reactome	R-HSA-73854	3	109	0.013560455	0.038183386	EHMT2|CCNH|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73854
+Mitotic Spindle Checkpoint	Reactome	R-HSA-69618	3	110	0.013885982	0.038986007	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69618
+RET signaling	Reactome	R-HSA-8853659	2	39	0.014191004	0.039680993	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8853659
+Nucleotide Excision Repair	Reactome	R-HSA-5696398	3	111	0.014215932	0.039680993	COPS2|UBE2I|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5696398
+@@Nucleotide excision repair	KEGG PATHWAY	hsa03420	1	47	0.191422629	0.233341762	CCNH	http://www.genome.jp/kegg-bin/show_pathway?hsa03420/hsa:902%09red
+Signaling by SCF-KIT	Reactome	R-HSA-1433557	2	40	0.014857799	0.04132056	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1433557
+Toxoplasmosis	KEGG PATHWAY	hsa05145	3	113	0.014889132	0.04132056	TNF|BIRC2|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05145/hsa:7124%09red/hsa:329%09red/hsa:8517%09red
+protein ubiquitylation	BioCyc	PWY-7511	2	41	0.015537873	0.042997044	UBE2I|RNF216	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-7511
+cAMP signaling pathway	KEGG PATHWAY	hsa04024	4	214	0.016191351	0.044658706	PIK3CA|SOX9|PIK3R3|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04024/hsa:5290%09red/hsa:1387%09red/hsa:8503%09red/hsa:6662%09red
+SUMOylation of DNA replication proteins	Reactome	R-HSA-4615885	2	42	0.016231098	0.044658706	UBE2I|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4615885
+Formation of Incision Complex in GG-NER	Reactome	R-HSA-5696395	2	43	0.016937345	0.046469127	UBE2I|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5696395
+AMPK signaling pathway	KEGG PATHWAY	hsa04152	3	120	0.017385618	0.047563494	PIK3CA|FOXO1|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04152/hsa:5290%09red/hsa:8503%09red/hsa:2308%09red
+Carbohydrate digestion and absorption	KEGG PATHWAY	hsa04973	2	44	0.017656489	0.048031635	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04973/hsa:5290%09red/hsa:8503%09red
+Interleukin-2 family signaling	Reactome	R-HSA-451927	2	44	0.017656489	0.048031635	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-451927
+Activation of HOX genes during differentiation	Reactome	R-HSA-5619507	3	121	0.017760141	0.048042179	HOXB3|HOXA1|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5619507
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	Reactome	R-HSA-5617472	3	121	0.017760141	0.048042179	HOXB3|HOXA1|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5617472
+NOTCH1 Intracellular Domain Regulates Transcription	Reactome	R-HSA-2122947	2	45	0.018388402	0.049602328	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2122947
+Resolution of Sister Chromatid Cohesion	Reactome	R-HSA-2500257	3	123	0.01852264	0.049824868	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2500257
+Oxidative Stress Induced Senescence	Reactome	R-HSA-2559580	3	124	0.018910623	0.050726824	E2F3|CBX4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559580
+Nuclear Envelope Breakdown	Reactome	R-HSA-2980766	2	46	0.019132959	0.051180666	VRK1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2980766
+HIV Infection	Reactome	R-HSA-162906	4	227	0.019573074	0.052212937	PSMD4|CCNH|NMT2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162906
+Signaling by ERBB2	Reactome	R-HSA-1227986	2	47	0.019890036	0.052766129	PIK3CA|CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1227986
+"Interleukin-3, Interleukin-5 and GM-CSF signaling"	Reactome	R-HSA-512988	2	47	0.019890036	0.052766129	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-512988
+Autophagy - animal	KEGG PATHWAY	hsa04140	3	128	0.020507496	0.054254721	PIK3CA|PIK3R3|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa04140/hsa:5290%09red/hsa:5728%09red/hsa:8503%09red
+Signaling by NOTCH3	Reactome	R-HSA-9012852	2	48	0.020659509	0.054507142	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9012852
+Huntington disease	PANTHER	P00029	3	129	0.020917959	0.055038237	TP53|BAX|CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00029
+@@Huntington disease	KEGG PATHWAY	hsa05016	3	193	0.056405545	0.103463885	TP53|BAX|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa05016/hsa:1387%09red/hsa:581%09red/hsa:7157%09red
+Ras signaling pathway	KEGG PATHWAY	hsa04014	4	232	0.020981266	0.055054383	PIK3CA|ETS1|PIK3R3|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04014/hsa:5290%09red/hsa:2113%09red/hsa:8517%09red/hsa:8503%09red
+Purine metabolism	KEGG PATHWAY	hsa00230	3	130	0.021332923	0.055523257	HPRT1|AK1|PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00230/hsa:203%09red/hsa:5236%09red/hsa:3251%09red
+Fc epsilon receptor (FCERI) signaling	Reactome	R-HSA-2454202	3	130	0.021332923	0.055523257	PSMD4|IKBKG|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2454202
+G1/S Transition	Reactome	R-HSA-69206	3	130	0.021332923	0.055523257	PSMD4|CCNH|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69206
+XBP1(S) activates chaperone genes	Reactome	R-HSA-381038	2	49	0.021441254	0.055654793	SRPRB|ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-381038
+Natural killer cell mediated cytotoxicity	KEGG PATHWAY	hsa04650	3	131	0.021752389	0.05631062	PIK3CA|TNF|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04650/hsa:5290%09red/hsa:7124%09red/hsa:8503%09red
+Intrinsic Pathway for Apoptosis	Reactome	R-HSA-109606	2	50	0.022235151	0.057406034	TP53|BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-109606
+Mitotic Prophase	Reactome	R-HSA-68875	3	134	0.023037798	0.059012122	VRK1|RB1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68875
+IRE1alpha activates chaperones	Reactome	R-HSA-381070	2	51	0.023041078	0.059012122	SRPRB|ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-381070
+Autodegradation of the E3 ubiquitin ligase COP1	Reactome	R-HSA-349425	2	51	0.023041078	0.059012122	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-349425
+Late Phase of HIV Life Cycle	Reactome	R-HSA-162599	3	136	0.023917246	0.060932031	CCNH|NMT2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162599
+RHO GTPases Activate Formins	Reactome	R-HSA-5663220	3	136	0.023917246	0.060932031	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5663220
+Insulin signaling pathway	KEGG PATHWAY	hsa04910	3	137	0.02436372	0.061905706	PIK3CA|FOXO1|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04910/hsa:5290%09red/hsa:8503%09red/hsa:2308%09red
+Regulation of RUNX3 expression and activity	Reactome	R-HSA-8941858	2	53	0.02468854	0.062565958	PSMD4|CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941858
+Estrogen signaling pathway	KEGG PATHWAY	hsa04915	3	138	0.024814693	0.062720603	FKBP5|PIK3R3|PIK3CA	http://www.genome.jp/kegg-bin/show_pathway?hsa04915/hsa:5290%09red/hsa:8503%09red/hsa:2289%09red
+Fanconi anemia pathway	KEGG PATHWAY	hsa03460	2	54	0.025529837	0.063732438	RAD51C|RAD51	http://www.genome.jp/kegg-bin/show_pathway?hsa03460/hsa:5889%09red/hsa:5888%09red
+tRNA processing in the nucleus	Reactome	R-HSA-6784531	2	54	0.025529837	0.063732438	XPOT|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6784531
+Formation of TC-NER Pre-Incision Complex	Reactome	R-HSA-6781823	2	54	0.025529837	0.063732438	COPS2|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6781823
+IRF3 mediated activation of type 1 IFN	Reactome	R-HSA-1606341	1	5	0.026196439	0.063732438	IRF3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1606341
+MET activates PI3K/AKT signaling	Reactome	R-HSA-8851907	1	5	0.026196439	0.063732438	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8851907
+RUNX1 regulates transcription of genes involved in interleukin signaling	Reactome	R-HSA-8939247	1	5	0.026196439	0.063732438	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939247
+RUNX3 Regulates Immune Response and Cell Migration	Reactome	R-HSA-8949275	1	5	0.026196439	0.063732438	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8949275
+PTK6 Expression	Reactome	R-HSA-8849473	1	5	0.026196439	0.063732438	HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8849473
+G2 Phase	Reactome	R-HSA-68911	1	5	0.026196439	0.063732438	E2F3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68911
+RUNX1 regulates expression of components of tight junctions	Reactome	R-HSA-8935964	1	5	0.026196439	0.063732438	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8935964
+Activation of NOXA and translocation to mitochondria	Reactome	R-HSA-111448	1	5	0.026196439	0.063732438	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-111448
+TFAP2 (AP-2) family regulates transcription of cell cycle factors	Reactome	R-HSA-8866911	1	5	0.026196439	0.063732438	TFAP2C	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866911
+Regulation of lipolysis in adipocytes	KEGG PATHWAY	hsa04923	2	55	0.026382688	0.063732438	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04923/hsa:5290%09red/hsa:8503%09red
+Stabilization of p53	Reactome	R-HSA-69541	2	55	0.026382688	0.063732438	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69541
+Hh mutants that don't undergo autocatalytic processing are degraded by ERAD	Reactome	R-HSA-5362768	2	55	0.026382688	0.063732438	VCP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5362768
+Transcriptional activation of mitochondrial biogenesis	Reactome	R-HSA-2151201	2	55	0.026382688	0.063732438	MAML2|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2151201
+superpathway of purine nucleotide salvage	BioCyc	PWY66-409	2	55	0.026382688	0.063732438	HPRT1|AK1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-409
+Infectious disease	Reactome	R-HSA-5663205	5	372	0.026406275	0.063732438	PSMD4|RANBP2|SH3GL1|NMT2|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5663205
+E3 ubiquitin ligases ubiquitinate target proteins	Reactome	R-HSA-8866654	2	57	0.028122581	0.067368273	VCP|RNF40	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866654
+Metabolism of polyamines	Reactome	R-HSA-351202	2	57	0.028122581	0.067368273	AZI2|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-351202
+Complement cascade	Reactome	R-HSA-166658	2	57	0.028122581	0.067368273	MBL2|CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166658
+Epigenetic regulation of gene expression	Reactome	R-HSA-212165	3	146	0.02858419	0.068304157	EHMT2|CCNH|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-212165
+Hh mutants abrogate ligand secretion	Reactome	R-HSA-5387390	2	58	0.029009392	0.068977887	VCP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5387390
+NIK-->noncanonical NF-kB signaling	Reactome	R-HSA-5676590	2	58	0.029009392	0.068977887	PSMD4|MAP3K14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5676590
+Signaling by Hedgehog	Reactome	R-HSA-5358351	3	148	0.029571382	0.070140986	VCP|PSMD4|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5358351
+Regulation of PTEN gene transcription	Reactome	R-HSA-8943724	2	59	0.029907292	0.070256801	CBX4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8943724
+Dectin-1 mediated noncanonical NF-kB signaling	Reactome	R-HSA-5607761	2	59	0.029907292	0.070256801	PSMD4|MAP3K14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5607761
+HIV Life Cycle	Reactome	R-HSA-162587	3	149	0.03007168	0.070256801	CCNH|NMT2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162587
+Adenine and hypoxanthine salvage pathway	PANTHER	P02723	1	6	0.030495683	0.070256801	HPRT1	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P02723
+RUNX1 regulates estrogen receptor mediated transcription	Reactome	R-HSA-8931987	1	6	0.030495683	0.070256801	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8931987
+RUNX1 regulates transcription of genes involved in BCR signaling	Reactome	R-HSA-8939245	1	6	0.030495683	0.070256801	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939245
+Activated NTRK3 signals through PI3K	Reactome	R-HSA-9603381	1	6	0.030495683	0.070256801	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9603381
+Activated NTRK2 signals through PI3K	Reactome	R-HSA-9028335	1	6	0.030495683	0.070256801	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9028335
+RUNX1 regulates transcription of genes involved in WNT signaling	Reactome	R-HSA-8939256	1	6	0.030495683	0.070256801	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939256
+TNFR1-mediated ceramide production	Reactome	R-HSA-5626978	1	6	0.030495683	0.070256801	TNF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5626978
+D-galactose degradation V (Leloir pathway)	BioCyc	PWY66-422	1	6	0.030495683	0.070256801	PGM1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-422
+Metabolism of RNA	Reactome	R-HSA-8953854	7	667	0.030676757	0.070505292	XPOT|PSMD4|DDX5|THOC1|BRF1|CCNH|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8953854
+Defective CFTR causes cystic fibrosis	Reactome	R-HSA-5678895	2	60	0.030816168	0.070657071	VCP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5678895
+B cell activation	PANTHER	P00010	2	61	0.031735906	0.072421037	PIK3CA|NFATC4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00010
+Transcriptional Regulation by MECP2	Reactome	R-HSA-8986944	2	61	0.031735906	0.072421037	FKBP5|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8986944
+ER to Golgi Anterograde Transport	Reactome	R-HSA-199977	3	154	0.03264002	0.074192777	TRAPPC6A|TRAPPC3|CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199977
+Constitutive Signaling by Aberrant PI3K in Cancer	Reactome	R-HSA-2219530	2	62	0.032666394	0.074192777	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2219530
+Basal cell carcinoma	KEGG PATHWAY	hsa05217	2	63	0.033607521	0.075957503	TP53|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa05217/hsa:581%09red/hsa:7157%09red
+p53-Dependent G1/S DNA damage checkpoint	Reactome	R-HSA-69580	2	64	0.034559175	0.075957503	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69580
+p53-Dependent G1 DNA Damage Response	Reactome	R-HSA-69563	2	64	0.034559175	0.075957503	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69563
+Angiogenesis	PANTHER	P00005	3	158	0.034774592	0.075957503	PIK3CA|ETS1|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00005
+Lectin pathway of complement activation	Reactome	R-HSA-166662	1	7	0.034776055	0.075957503	MBL2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166662
+Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	Reactome	R-HSA-2660826	1	7	0.034776055	0.075957503	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2660826
+RUNX3 regulates CDKN1A transcription	Reactome	R-HSA-8941855	1	7	0.034776055	0.075957503	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941855
+"SUMO is transferred from E1 to E2 (UBE2I, UBC9)"	Reactome	R-HSA-3065678	1	7	0.034776055	0.075957503	UBE2I	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3065678
+Regulation of gene expression in early pancreatic precursor cells	Reactome	R-HSA-210747	1	7	0.034776055	0.075957503	ONECUT1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-210747
+RUNX2 regulates genes involved in cell migration	Reactome	R-HSA-8941332	1	7	0.034776055	0.075957503	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941332
+Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	Reactome	R-HSA-2660825	1	7	0.034776055	0.075957503	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2660825
+IkBA variant leads to EDA-ID	Reactome	R-HSA-5603029	1	7	0.034776055	0.075957503	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5603029
+DEx/H-box helicases activate type I IFN and inflammatory cytokines production 	Reactome	R-HSA-3134963	1	7	0.034776055	0.075957503	IRF7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3134963
+GDP-glucose biosynthesis II	BioCyc	PWY-5661-1	1	7	0.034776055	0.075957503	PGM1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-5661-1
+glycogenolysis	BioCyc	PWY-5941	1	7	0.034776055	0.075957503	PGM1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-5941
+Chromatin organization	Reactome	R-HSA-4839726	4	273	0.034863153	0.075957503	EHMT2|SMARCB1|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4839726
+Chromatin modifying enzymes	Reactome	R-HSA-3247509	4	273	0.034863153	0.075957503	EHMT2|SMARCB1|KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3247509
+Regulation of TP53 Activity	Reactome	R-HSA-5633007	3	159	0.035319283	0.076697219	EHMT2|RBBP8|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5633007
+Mitophagy - animal	KEGG PATHWAY	hsa04137	2	65	0.035521246	0.076697219	CITED2|TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa04137/hsa:10370%09red/hsa:7157%09red
+TP53 Regulates Transcription of DNA Repair Genes	Reactome	R-HSA-6796648	2	65	0.035521246	0.076697219	CCNH|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6796648
+Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	Reactome	R-HSA-1234176	2	65	0.035521246	0.076697219	PSMD4|HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1234176
+Other interleukin signaling	Reactome	R-HSA-449836	4	275	0.035648863	0.076800571	PSMD4|TXLNA|IL16|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-449836
+S Phase	Reactome	R-HSA-69242	3	160	0.03586838	0.077101005	PSMD4|CCNH|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69242
+Activation of NF-kappaB in B cells	Reactome	R-HSA-1169091	2	66	0.036493625	0.078096357	PSMD4|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1169091
+G1/S DNA Damage Checkpoints	Reactome	R-HSA-69615	2	66	0.036493625	0.078096357	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69615
+MAPK family signaling cascades	Reactome	R-HSA-5683057	4	278	0.036846582	0.078676848	PSMD4|FOXO1|ETV4|CDC14A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5683057
+Assembly of the pre-replicative complex	Reactome	R-HSA-68867	2	67	0.037476204	0.079667956	PSMD4|E2F3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68867
+Interferon alpha/beta signaling	Reactome	R-HSA-909733	2	67	0.037476204	0.079667956	IRF3|IRF7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-909733
+COPII-mediated vesicle transport	Reactome	R-HSA-204005	2	68	0.038468874	0.081598074	TRAPPC6A|TRAPPC3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-204005
+RUNX1 regulates transcription of genes involved in differentiation of keratinocytes	Reactome	R-HSA-8939242	1	8	0.039037638	0.082260931	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939242
+Release of Hh-Np from the secreting cell	Reactome	R-HSA-5362798	1	8	0.039037638	0.082260931	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5362798
+Role of ABL in ROBO-SLIT signaling	Reactome	R-HSA-428890	1	8	0.039037638	0.082260931	CLASP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-428890
+Integrin signalling pathway	PANTHER	P00034	3	166	0.039255098	0.082538558	PIK3CA|PIK3R3|MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00034
+Adipocytokine signaling pathway	KEGG PATHWAY	hsa04920	2	69	0.039471528	0.082632787	TNF|IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04920/hsa:7124%09red/hsa:8517%09red
+ISG15 antiviral mechanism	Reactome	R-HSA-1169408	2	69	0.039471528	0.082632787	IRF3|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1169408
+G2/M Checkpoints	Reactome	R-HSA-69481	3	167	0.039834836	0.083212466	PSMD4|RBBP8|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69481
+Prolactin signaling pathway	KEGG PATHWAY	hsa04917	2	70	0.040484061	0.084203349	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04917/hsa:5290%09red/hsa:8503%09red
+Regulation of RUNX2 expression and activity	Reactome	R-HSA-8939902	2	70	0.040484061	0.084203349	PSMD4|CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939902
+Cdc20:Phospho-APC/C mediated degradation of Cyclin A	Reactome	R-HSA-174184	2	71	0.041506366	0.0861436	PSMD4|MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174184
+Transport of Mature mRNA derived from an Intron-Containing Transcript	Reactome	R-HSA-159236	2	72	0.042538339	0.087377639	THOC1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-159236
+APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint	Reactome	R-HSA-179419	2	72	0.042538339	0.087377639	PSMD4|MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-179419
+Disorders of transmembrane transporters	Reactome	R-HSA-5619115	3	172	0.042798539	0.087377639	VCP|PSMD4|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5619115
+Axonal growth inhibition (RHOA activation)	Reactome	R-HSA-193634	1	9	0.043280513	0.087377639	LINGO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193634
+Activation of PUMA and translocation to mitochondria	Reactome	R-HSA-139915	1	9	0.043280513	0.087377639	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-139915
+AKT phosphorylates targets in the nucleus	Reactome	R-HSA-198693	1	9	0.043280513	0.087377639	FOXO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-198693
+Signaling by FGFR3 fusions in cancer	Reactome	R-HSA-8853334	1	9	0.043280513	0.087377639	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8853334
+Regulation of PTEN mRNA translation	Reactome	R-HSA-8943723	1	9	0.043280513	0.087377639	PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8943723
+RUNX3 regulates p14-ARF	Reactome	R-HSA-8951936	1	9	0.043280513	0.087377639	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8951936
+Regulation of PTEN localization	Reactome	R-HSA-8948747	1	9	0.043280513	0.087377639	PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8948747
+PI3K events in ERBB4 signaling	Reactome	R-HSA-1250342	1	9	0.043280513	0.087377639	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1250342
+PI5P Regulates TP53 Acetylation	Reactome	R-HSA-6811555	1	9	0.043280513	0.087377639	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6811555
+PI3K/AKT activation	Reactome	R-HSA-198203	1	9	0.043280513	0.087377639	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-198203
+Cytokine-cytokine receptor interaction	KEGG PATHWAY	hsa04060	4	294	0.043623278	0.087885391	CCL18|TNF|EDAR|IL16	http://www.genome.jp/kegg-bin/show_pathway?hsa04060/hsa:7124%09red/hsa:3603%09red/hsa:10913%09red/hsa:6362%09red
+Inositol phosphate metabolism	KEGG PATHWAY	hsa00562	2	74	0.04463087	0.089354528	PIK3CA|PTEN	http://www.genome.jp/kegg-bin/show_pathway?hsa00562/hsa:5290%09red/hsa:5728%09red
+@@Inositol phosphate metabolism	Reactome	R-HSA-1483249	1	50	0.202096374	0.242666844	PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1483249
+Bacterial invasion of epithelial cells	KEGG PATHWAY	hsa05100	2	74	0.04463087	0.089354528	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa05100/hsa:5290%09red/hsa:8503%09red
+APC/C:Cdc20 mediated degradation of mitotic proteins	Reactome	R-HSA-176409	2	74	0.04463087	0.089354528	PSMD4|MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176409
+Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins	Reactome	R-HSA-176814	2	75	0.045691223	0.091287652	PSMD4|MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176814
+Extra-nuclear estrogen signaling	Reactome	R-HSA-9009391	2	76	0.046760831	0.092605436	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9009391
+The role of GTSE1 in G2/M progression after G2 checkpoint	Reactome	R-HSA-8852276	2	76	0.046760831	0.092605436	PSMD4|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8852276
+ABC transporter disorders	Reactome	R-HSA-5619084	2	76	0.046760831	0.092605436	VCP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5619084
+Vitamin D metabolism and pathway	PANTHER	P04396	1	10	0.047504761	0.092605436	DBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P04396
+RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	Reactome	R-HSA-8877330	1	10	0.047504761	0.092605436	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8877330
+HDR through MMEJ (alt-NHEJ)	Reactome	R-HSA-5685939	1	10	0.047504761	0.092605436	RBBP8	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5685939
+Initiation of Nuclear Envelope Reformation	Reactome	R-HSA-2995383	1	10	0.047504761	0.092605436	VRK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2995383
+Processing and activation of SUMO	Reactome	R-HSA-3215018	1	10	0.047504761	0.092605436	UBE2I	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3215018
+MyD88 deficiency (TLR2/4)	Reactome	R-HSA-5602498	1	10	0.047504761	0.092605436	CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5602498
+Signaling by FGFR4 in disease	Reactome	R-HSA-5655291	1	10	0.047504761	0.092605436	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5655291
+@@Signaling by FGFR4	Reactome	R-HSA-5654743	1	36	0.15105672	0.199544062	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654743
+Nuclear Envelope Reassembly	Reactome	R-HSA-2995410	1	10	0.047504761	0.092605436	VRK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2995410
+p75NTR regulates axonogenesis	Reactome	R-HSA-193697	1	10	0.047504761	0.092605436	LINGO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193697
+Protein ubiquitination	Reactome	R-HSA-8852135	2	77	0.047839593	0.092695228	VCP|RNF40	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8852135
+Signaling by MET	Reactome	R-HSA-6806834	2	77	0.047839593	0.092695228	PIK3CA|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6806834
+Antiviral mechanism by IFN-stimulated genes	Reactome	R-HSA-1169410	2	77	0.047839593	0.092695228	IRF3|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1169410
+Asparagine N-linked glycosylation	Reactome	R-HSA-446203	4	304	0.048191329	0.093189256	VCP|TRAPPC6A|TRAPPC3|CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-446203
+Axon guidance	KEGG PATHWAY	hsa04360	3	181	0.04840337	0.093411713	PIK3CA|NFATC4|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04360/hsa:5290%09red/hsa:4776%09red/hsa:8503%09red
+@@Axon guidance	Reactome	R-HSA-422475	4	549	0.228793776	0.265455911	PSMD4|PIK3R3|CLASP2|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-422475
+Endothelin signaling pathway	PANTHER	P00019	2	78	0.048927408	0.094234188	PIK3CA|PIK3R3	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00019
+Transcription-Coupled Nucleotide Excision Repair (TC-NER)	Reactome	R-HSA-6781827	2	79	0.050024177	0.095962713	COPS2|CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6781827
+Regulation of APC/C activators between G1/S and early anaphase	Reactome	R-HSA-176408	2	79	0.050024177	0.095962713	PSMD4|MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176408
+Transport to the Golgi and subsequent modification	Reactome	R-HSA-948021	3	185	0.051004343	0.097648474	TRAPPC6A|TRAPPC3|CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-948021
+DNA Damage/Telomere Stress Induced Senescence	Reactome	R-HSA-2559586	2	80	0.051129799	0.097694437	TP53|RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559586
+IRAK4 deficiency (TLR2/4)	Reactome	R-HSA-5603041	1	11	0.051710465	0.098025941	CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5603041
+Regulated proteolysis of p75NTR	Reactome	R-HSA-193692	1	11	0.051710465	0.098025941	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193692
+CDC6 association with the ORC:origin complex	Reactome	R-HSA-68689	1	11	0.051710465	0.098025941	E2F3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68689
+Regulation of localization of FOXO transcription factors	Reactome	R-HSA-9614399	1	11	0.051710465	0.098025941	FOXO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9614399
+FCERI mediated NF-kB activation	Reactome	R-HSA-2871837	2	81	0.052244177	0.098649299	PSMD4|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2871837
+Transport of Mature Transcript to Cytoplasm	Reactome	R-HSA-72202	2	81	0.052244177	0.098649299	THOC1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72202
+TP53 Regulates Metabolic Genes	Reactome	R-HSA-5628897	2	82	0.053367213	0.100376222	PTEN|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5628897
+Downstream signaling events of B Cell Receptor (BCR)	Reactome	R-HSA-1168372	2	82	0.053367213	0.100376222	PSMD4|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1168372
+DNA Replication Pre-Initiation	Reactome	R-HSA-69002	2	84	0.055638869	0.102728034	PSMD4|E2F3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69002
+Erythropoietin activates Phosphoinositide-3-kinase (PI3K)	Reactome	R-HSA-9027276	1	12	0.055897705	0.102728034	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9027276
+Josephin domain DUBs	Reactome	R-HSA-5689877	1	12	0.055897705	0.102728034	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689877
+TP53 Regulates Transcription of Death Receptors and Ligands	Reactome	R-HSA-6803211	1	12	0.055897705	0.102728034	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803211
+Caspase-mediated cleavage of cytoskeletal proteins	Reactome	R-HSA-264870	1	12	0.055897705	0.102728034	ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-264870
+Physiological factors	Reactome	R-HSA-5578768	1	12	0.055897705	0.102728034	KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5578768
+TP53 Regulates Transcription of Caspase Activators and Caspases	Reactome	R-HSA-6803207	1	12	0.055897705	0.102728034	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803207
+HSF1 activation	Reactome	R-HSA-3371511	1	12	0.055897705	0.102728034	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371511
+Tandem pore domain potassium channels	Reactome	R-HSA-1296346	1	12	0.055897705	0.102728034	KCNK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296346
+cholesterol biosynthesis III (via desmosterol)	BioCyc	PWY66-4	1	12	0.055897705	0.102728034	DHCR24	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-4
+cholesterol biosynthesis I	BioCyc	PWY66-341	1	12	0.055897705	0.102728034	DHCR24	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-341
+"cholesterol biosynthesis II (via 24,25-dihydrolanosterol)"	BioCyc	PWY66-3	1	12	0.055897705	0.102728034	DHCR24	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-3
+ErbB signaling pathway	KEGG PATHWAY	hsa04012	2	85	0.056787298	0.103768819	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04012/hsa:5290%09red/hsa:8503%09red
+"Transport of bile salts and organic acids, metal ions and amine compounds"	Reactome	R-HSA-425366	2	85	0.056787298	0.103768819	SLC39A1|SLC39A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425366
+Interferon Signaling	Reactome	R-HSA-913531	3	194	0.057099145	0.104141053	IRF3|IRF7|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-913531
+Regulation of mRNA stability by proteins that bind AU-rich elements	Reactome	R-HSA-450531	2	86	0.057944	0.105482177	PSMD4|BRF1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450531
+Mitotic Prometaphase	Reactome	R-HSA-68877	3	196	0.058498507	0.106290684	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68877
+Creation of C4 and C2 activators	Reactome	R-HSA-166786	1	13	0.060066562	0.107118702	MBL2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166786
+PI-3K cascade:FGFR3	Reactome	R-HSA-5654710	1	13	0.060066562	0.107118702	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654710
+Inhibition of replication initiation of damaged DNA by RB1/E2F1	Reactome	R-HSA-113501	1	13	0.060066562	0.107118702	RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-113501
+Purine salvage	Reactome	R-HSA-74217	1	13	0.060066562	0.107118702	HPRT1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74217
+Apoptosis induced DNA fragmentation	Reactome	R-HSA-140342	1	13	0.060066562	0.107118702	HMGB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-140342
+PI3K events in ERBB2 signaling	Reactome	R-HSA-1963642	1	13	0.060066562	0.107118702	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1963642
+Trafficking and processing of endosomal TLR	Reactome	R-HSA-1679131	1	13	0.060066562	0.107118702	TLR3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1679131
+TNFR1-induced proapoptotic signaling	Reactome	R-HSA-5357786	1	13	0.060066562	0.107118702	TNF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5357786
+IRF3-mediated induction of type I IFN	Reactome	R-HSA-3270619	1	13	0.060066562	0.107118702	IRF3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3270619
+Dissolution of Fibrin Clot	Reactome	R-HSA-75205	1	13	0.060066562	0.107118702	SERPINB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75205
+Transcriptional regulation of granulopoiesis	Reactome	R-HSA-9616222	2	89	0.061462803	0.109003093	CBFB|CEBPE	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9616222
+RAB GEFs exchange GTP for GDP on RABs	Reactome	R-HSA-8876198	2	89	0.061462803	0.109003093	TRAPPC6A|TRAPPC3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8876198
+"PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"	Reactome	R-HSA-6811558	2	89	0.061462803	0.109003093	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6811558
+Interferon gamma signaling	Reactome	R-HSA-877300	2	90	0.06265166	0.110907258	IRF3|IRF7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-877300
+Membrane Trafficking	Reactome	R-HSA-199991	6	631	0.064156181	0.111425374	CD55|COPS2|TRAPPC3|TRAPPC6A|TRIP11|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199991
+Membrane binding and targetting of GAG proteins	Reactome	R-HSA-174490	1	14	0.064217116	0.111425374	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174490
+TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest	Reactome	R-HSA-6804116	1	14	0.064217116	0.111425374	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804116
+"Synthesis And Processing Of GAG, GAGPOL Polyproteins"	Reactome	R-HSA-174495	1	14	0.064217116	0.111425374	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174495
+Regulation of TP53 Activity through Association with Co-factors	Reactome	R-HSA-6804759	1	14	0.064217116	0.111425374	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804759
+Attenuation phase	Reactome	R-HSA-3371568	1	14	0.064217116	0.111425374	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371568
+TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain	Reactome	R-HSA-6803205	1	14	0.064217116	0.111425374	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803205
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	Reactome	R-HSA-2032785	1	14	0.064217116	0.111425374	KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2032785
+Role of LAT2/NTAL/LAB on calcium mobilization	Reactome	R-HSA-2730905	1	14	0.064217116	0.111425374	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2730905
+InlB-mediated entry of Listeria monocytogenes into host cell	Reactome	R-HSA-8875360	1	14	0.064217116	0.111425374	SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8875360
+Unfolded Protein Response (UPR)	Reactome	R-HSA-381119	2	92	0.065052704	0.112469936	SRPRB|ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-381119
+Regulation of TP53 Activity through Phosphorylation	Reactome	R-HSA-6804756	2	92	0.065052704	0.112469936	RBBP8|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804756
+Fc gamma R-mediated phagocytosis	KEGG PATHWAY	hsa04666	2	94	0.067484253	0.114870012	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04666/hsa:5290%09red/hsa:8503%09red
+Mitochondrial biogenesis	Reactome	R-HSA-1592230	2	94	0.067484253	0.114870012	MAML2|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1592230
+Plasminogen activating cascade	PANTHER	P00050	1	15	0.068349446	0.114870012	SERPINB2	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00050
+General transcription by RNA polymerase I	PANTHER	P00022	1	15	0.068349446	0.114870012	PTRF	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00022
+Signaling by cytosolic FGFR1 fusion mutants	Reactome	R-HSA-1839117	1	15	0.068349446	0.114870012	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1839117
+Constitutive Signaling by NOTCH1 HD Domain Mutants	Reactome	R-HSA-2691232	1	15	0.068349446	0.114870012	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2691232
+TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling	Reactome	R-HSA-975110	1	15	0.068349446	0.114870012	IRF7	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975110
+PI-3K cascade:FGFR1	Reactome	R-HSA-5654689	1	15	0.068349446	0.114870012	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654689
+Regulation of innate immune responses to cytosolic DNA	Reactome	R-HSA-3134975	1	15	0.068349446	0.114870012	IRF3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3134975
+IRAK1 recruits IKK complex	Reactome	R-HSA-937039	1	15	0.068349446	0.114870012	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-937039
+IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation	Reactome	R-HSA-975144	1	15	0.068349446	0.114870012	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-975144
+TFAP2 (AP-2) family regulates transcription of growth factors and their receptors	Reactome	R-HSA-8866910	1	15	0.068349446	0.114870012	TFAP2C	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866910
+Signaling by NOTCH1 HD Domain Mutants in Cancer	Reactome	R-HSA-2691230	1	15	0.068349446	0.114870012	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2691230
+Apoptotic factor-mediated response	Reactome	R-HSA-111471	1	15	0.068349446	0.114870012	BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-111471
+The NLRP3 inflammasome	Reactome	R-HSA-844456	1	15	0.068349446	0.114870012	SUGT1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-844456
+"D-myo-inositol (1,3,4)-trisphosphate biosynthesis"	BioCyc	PWY-6364	1	15	0.068349446	0.114870012	PTEN	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-6364
+G2/M DNA damage checkpoint	Reactome	R-HSA-69473	2	95	0.068711242	0.115124268	RBBP8|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69473
+Rap1 signaling pathway	KEGG PATHWAY	hsa04015	3	210	0.068739828	0.115124268	SIPA1L1|PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04015/hsa:5290%09red/hsa:8503%09red/hsa:26037%09red
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	Reactome	R-HSA-8936459	2	96	0.069945589	0.116940282	CBFB|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8936459
+Phospholipid metabolism	Reactome	R-HSA-1483257	3	212	0.070265244	0.11727111	PIK3CA|PIK3R3|PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1483257
+p75 NTR receptor-mediated signalling	Reactome	R-HSA-193704	2	97	0.071187206	0.118275388	LINGO1|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193704
+Signaling by NTRKs	Reactome	R-HSA-166520	2	97	0.071187206	0.118275388	PIK3CA|BAX	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166520
+Processing of DNA double-strand break ends	Reactome	R-HSA-5693607	2	98	0.072436006	0.118275388	UBE2I|RBBP8	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5693607
+Thiamine metabolism	KEGG PATHWAY	hsa00730	1	16	0.072463633	0.118275388	AK1	http://www.genome.jp/kegg-bin/show_pathway?hsa00730/hsa:203%09red
+Chaperone Mediated Autophagy	Reactome	R-HSA-9613829	1	16	0.072463633	0.118275388	GFAP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9613829
+MECP2 regulates neuronal receptors and channels	Reactome	R-HSA-9022699	1	16	0.072463633	0.118275388	FKBP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9022699
+GAB1 signalosome	Reactome	R-HSA-180292	1	16	0.072463633	0.118275388	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-180292
+Polo-like kinase mediated events	Reactome	R-HSA-156711	1	16	0.072463633	0.118275388	FOXM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-156711
+MAP3K8 (TPL2)-dependent MAPK1/3 activation	Reactome	R-HSA-5684264	1	16	0.072463633	0.118275388	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5684264
+Assembly Of The HIV Virion	Reactome	R-HSA-175474	1	16	0.072463633	0.118275388	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-175474
+STING mediated induction of host immune responses	Reactome	R-HSA-1834941	1	16	0.072463633	0.118275388	IRF3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1834941
+Glycogen synthesis	Reactome	R-HSA-3322077	1	16	0.072463633	0.118275388	PGM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3322077
+Choline metabolism in cancer	KEGG PATHWAY	hsa05231	2	99	0.073691902	0.120076652	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa05231/hsa:5290%09red/hsa:8503%09red
+Inflammatory mediator regulation of TRP channels	KEGG PATHWAY	hsa04750	2	100	0.074954807	0.121722562	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04750/hsa:5290%09red/hsa:8503%09red
+Viral protein interaction with cytokine and cytokine receptor	KEGG PATHWAY	hsa04061	2	100	0.074954807	0.121722562	CCL18|TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa04061/hsa:7124%09red/hsa:6362%09red
+PI-3K cascade:FGFR4	Reactome	R-HSA-5654720	1	17	0.076559756	0.123083547	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654720
+FOXO-mediated transcription of cell cycle genes	Reactome	R-HSA-9617828	1	17	0.076559756	0.123083547	FOXO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9617828
+Tie2 Signaling	Reactome	R-HSA-210993	1	17	0.076559756	0.123083547	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-210993
+Regulation of RUNX1 Expression and Activity	Reactome	R-HSA-8934593	1	17	0.076559756	0.123083547	CBFB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8934593
+Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA	Reactome	R-HSA-450385	1	17	0.076559756	0.123083547	BRF1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450385
+Regulation of necroptotic cell death	Reactome	R-HSA-5675482	1	17	0.076559756	0.123083547	BIRC2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5675482
+ABC-family proteins mediated transport	Reactome	R-HSA-382556	2	102	0.077501307	0.124389597	VCP|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-382556
+FGF signaling pathway	PANTHER	P00021	2	103	0.078784731	0.126029396	PIK3CA|MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00021
+tRNA processing	Reactome	R-HSA-72306	2	103	0.078784731	0.126029396	XPOT|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72306
+Vesicle-mediated transport	Reactome	R-HSA-5653656	6	669	0.079693173	0.127271186	CD55|COPS2|TRAPPC3|TRAPPC6A|TRIP11|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5653656
+Positive epigenetic regulation of rRNA expression	Reactome	R-HSA-5250913	2	104	0.080074827	0.127511151	EHMT2|KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5250913
+Diseases associated with glycosylation precursor biosynthesis	Reactome	R-HSA-5609975	1	18	0.080637893	0.127511151	PGM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5609975
+Signaling by FGFR3 point mutants in cancer	Reactome	R-HSA-8853338	1	18	0.080637893	0.127511151	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8853338
+RORA activates gene expression	Reactome	R-HSA-1368082	1	18	0.080637893	0.127511151	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1368082
+PI-3K cascade:FGFR2	Reactome	R-HSA-5654695	1	18	0.080637893	0.127511151	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654695
+Signaling by FGFR3 in disease	Reactome	R-HSA-5655332	1	18	0.080637893	0.127511151	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5655332
+@@Signaling by FGFR3	Reactome	R-HSA-5654741	1	33	0.139704278	0.188424677	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654741
+Cargo recognition for clathrin-mediated endocytosis	Reactome	R-HSA-8856825	2	105	0.081371512	0.128460272	COPS2|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8856825
+Glucagon signaling pathway	KEGG PATHWAY	hsa04922	2	106	0.082674702	0.13030399	FOXO1|CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04922/hsa:1387%09red/hsa:2308%09red
+Axon guidance mediated by semaphorins	PANTHER	P00007	1	19	0.084698123	0.130921818	FRK	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00007
+Steroid biosynthesis	KEGG PATHWAY	hsa00100	1	19	0.084698123	0.130921818	DHCR24	http://www.genome.jp/kegg-bin/show_pathway?hsa00100/hsa:1718%09red
+Listeria monocytogenes entry into host cells	Reactome	R-HSA-8876384	1	19	0.084698123	0.130921818	SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8876384
+Protein methylation	Reactome	R-HSA-8876725	1	19	0.084698123	0.130921818	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8876725
+Regulated Necrosis	Reactome	R-HSA-5218859	1	19	0.084698123	0.130921818	BIRC2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5218859
+Downstream signaling of activated FGFR3	Reactome	R-HSA-5654708	1	19	0.084698123	0.130921818	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654708
+RIPK1-mediated regulated necrosis	Reactome	R-HSA-5213460	1	19	0.084698123	0.130921818	BIRC2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5213460
+Phase 4 - resting membrane potential	Reactome	R-HSA-5576886	1	19	0.084698123	0.130921818	KCNK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5576886
+Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	Reactome	R-HSA-176407	1	19	0.084698123	0.130921818	CDC14A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176407
+Regulation of TLR by endogenous ligand	Reactome	R-HSA-5686938	1	19	0.084698123	0.130921818	CD14	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5686938
+Translesion Synthesis by POLH	Reactome	R-HSA-110320	1	19	0.084698123	0.130921818	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-110320
+3-phosphoinositide degradation	BioCyc	PWY-6368	1	19	0.084698123	0.130921818	PTEN	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-6368
+TCF dependent signaling in response to WNT	Reactome	R-HSA-201681	3	232	0.086338432	0.133243446	PSMD4|SOX9|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-201681
+Signaling by the B Cell Receptor (BCR)	Reactome	R-HSA-983705	2	110	0.087950893	0.13521697	PSMD4|IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983705
+Hedgehog signaling pathway	PANTHER	P00025	1	20	0.088740524	0.13521697	CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00025
+Inflammasomes	Reactome	R-HSA-622312	1	20	0.088740524	0.13521697	SUGT1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-622312
+Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components	Reactome	R-HSA-141405	1	20	0.088740524	0.13521697	MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141405
+"Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)"	Reactome	R-HSA-381771	1	20	0.088740524	0.13521697	CDX2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-381771
+Negative regulation of MET activity	Reactome	R-HSA-6807004	1	20	0.088740524	0.13521697	SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6807004
+Inactivation of APC/C via direct inhibition of the APC/C complex	Reactome	R-HSA-141430	1	20	0.088740524	0.13521697	MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141430
+"superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism"	BioCyc	PWY-6358	1	20	0.088740524	0.13521697	PTEN	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-6358
+Cholinergic synapse	KEGG PATHWAY	hsa04725	2	112	0.090625922	0.1376542	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04725/hsa:5290%09red/hsa:8503%09red
+Leukocyte transendothelial migration	KEGG PATHWAY	hsa04670	2	112	0.090625922	0.1376542	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04670/hsa:5290%09red/hsa:8503%09red
+p53 pathway by glucose deprivation	PANTHER	P04397	1	21	0.092765175	0.140460477	TP53	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P04397
+CD209 (DC-SIGN) signaling	Reactome	R-HSA-5621575	1	21	0.092765175	0.140460477	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5621575
+EGF receptor signaling pathway	PANTHER	P00018	2	114	0.093324731	0.141085896	PIK3CA|MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00018
+Processing of Capped Intron-Containing Pre-mRNA	Reactome	R-HSA-72203	3	241	0.094036222	0.141938687	DDX5|THOC1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72203
+Other types of O-glycan biosynthesis	KEGG PATHWAY	hsa00514	1	22	0.096772152	0.144483073	PLOD3	http://www.genome.jp/kegg-bin/show_pathway?hsa00514/hsa:8985%09red
+Initial triggering of complement	Reactome	R-HSA-166663	1	22	0.096772152	0.144483073	MBL2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-166663
+RNA Polymerase III Transcription Termination	Reactome	R-HSA-73980	1	22	0.096772152	0.144483073	NFIA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73980
+E2F mediated regulation of DNA replication	Reactome	R-HSA-113510	1	22	0.096772152	0.144483073	RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-113510
+Transcriptional regulation of pluripotent stem cells	Reactome	R-HSA-452723	1	22	0.096772152	0.144483073	HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-452723
+Signaling by NTRK2 (TRKB)	Reactome	R-HSA-9006115	1	22	0.096772152	0.144483073	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006115
+adenosine ribonucleotides de novo biosynthesis	BioCyc	PWY-7219	1	22	0.096772152	0.144483073	AK1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-7219
+Protein export	KEGG PATHWAY	hsa03060	1	23	0.100761532	0.148824165	SRPRB	http://www.genome.jp/kegg-bin/show_pathway?hsa03060/hsa:58477%09red
+Downstream signaling of activated FGFR4	Reactome	R-HSA-5654716	1	23	0.100761532	0.148824165	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654716
+JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1	Reactome	R-HSA-450321	1	23	0.100761532	0.148824165	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450321
+Growth hormone receptor signaling	Reactome	R-HSA-982772	1	23	0.100761532	0.148824165	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-982772
+"Incretin synthesis, secretion, and inactivation"	Reactome	R-HSA-400508	1	23	0.100761532	0.148824165	CDX2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-400508
+Nephrin family interactions	Reactome	R-HSA-373753	1	23	0.100761532	0.148824165	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-373753
+Nucleotide salvage	Reactome	R-HSA-8956321	1	23	0.100761532	0.148824165	HPRT1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8956321
+Downstream signaling of activated FGFR2	Reactome	R-HSA-5654696	1	24	0.104733393	0.152584353	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654696
+Cholesterol biosynthesis	Reactome	R-HSA-191273	1	24	0.104733393	0.152584353	DHCR24	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-191273
+activated TAK1 mediates p38 MAPK activation	Reactome	R-HSA-450302	1	24	0.104733393	0.152584353	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450302
+Downstream signaling of activated FGFR1	Reactome	R-HSA-5654687	1	24	0.104733393	0.152584353	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654687
+SUMOylation of intracellular receptors	Reactome	R-HSA-4090294	1	24	0.104733393	0.152584353	UBE2I	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4090294
+HSF1-dependent transactivation	Reactome	R-HSA-3371571	1	24	0.104733393	0.152584353	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371571
+Role of phospholipids in phagocytosis	Reactome	R-HSA-2029485	1	24	0.104733393	0.152584353	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2029485
+Signaling by Erythropoietin	Reactome	R-HSA-9006335	1	24	0.104733393	0.152584353	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006335
+superpathway of cholesterol biosynthesis	BioCyc	PWY66-5	1	24	0.104733393	0.152584353	DHCR24	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY66-5
+Rab regulation of trafficking	Reactome	R-HSA-9007101	2	123	0.105747216	0.153596635	TRAPPC6A|TRAPPC3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9007101
+Host Interactions of HIV factors	Reactome	R-HSA-162909	2	123	0.105747216	0.153596635	PSMD4|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162909
+Platelet activation	KEGG PATHWAY	hsa04611	2	124	0.107154064	0.155405668	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04611/hsa:5290%09red/hsa:8503%09red
+FGFR1 mutant receptor activation	Reactome	R-HSA-1839124	1	25	0.108687811	0.156218451	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1839124
+Constitutive Signaling by AKT1 E17K in Cancer	Reactome	R-HSA-5674400	1	25	0.108687811	0.156218451	FOXO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5674400
+Activation of G protein gated Potassium channels	Reactome	R-HSA-1296041	1	25	0.108687811	0.156218451	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296041
+Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits	Reactome	R-HSA-997272	1	25	0.108687811	0.156218451	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-997272
+G protein gated Potassium channels	Reactome	R-HSA-1296059	1	25	0.108687811	0.156218451	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296059
+APC-Cdc20 mediated degradation of Nek2A	Reactome	R-HSA-179409	1	25	0.108687811	0.156218451	MAD2L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-179409
+DNA Replication	Reactome	R-HSA-69306	2	126	0.10998283	0.15784421	PSMD4|E2F3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69306
+Miscellaneous transport and binding events	Reactome	R-HSA-5223345	1	26	0.112624862	0.16139545	ADD1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5223345
+Relaxin signaling pathway	KEGG PATHWAY	hsa04926	2	130	0.115698663	0.165534619	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04926/hsa:5290%09red/hsa:8503%09red
+Downregulation of ERBB2 signaling	Reactome	R-HSA-8863795	1	27	0.116544622	0.165534619	CDC37	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8863795
+RNA Pol II CTD phosphorylation and interaction with CE	Reactome	R-HSA-77075	1	27	0.116544622	0.165534619	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-77075
+Downstream signal transduction	Reactome	R-HSA-186763	1	27	0.116544622	0.165534619	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-186763
+DAP12 signaling	Reactome	R-HSA-2424491	1	27	0.116544622	0.165534619	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2424491
+RNA Pol II CTD phosphorylation and interaction with CE during HIV infection	Reactome	R-HSA-167160	1	27	0.116544622	0.165534619	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167160
+De novo purine biosynthesis	PANTHER	P02738	1	28	0.120447167	0.169576933	AK1	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P02738
+Regulation of Glucokinase by Glucokinase Regulatory Protein	Reactome	R-HSA-170822	1	28	0.120447167	0.169576933	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-170822
+NEP/NS2 Interacts with the Cellular Export Machinery	Reactome	R-HSA-168333	1	28	0.120447167	0.169576933	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168333
+Transport of Ribonucleoproteins into the Host Nucleus	Reactome	R-HSA-168271	1	28	0.120447167	0.169576933	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168271
+Synthesis of IP3 and IP4 in the cytosol	Reactome	R-HSA-1855204	1	28	0.120447167	0.169576933	PTEN	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1855204
+Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC)	Reactome	R-HSA-5619107	1	28	0.120447167	0.169576933	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5619107
+Spliceosome	KEGG PATHWAY	hsa03040	2	135	0.122947068	0.172843835	DDX5|THOC1	http://www.genome.jp/kegg-bin/show_pathway?hsa03040/hsa:9984%09red/hsa:1655%09red
+Glycogen metabolism	Reactome	R-HSA-8982491	1	29	0.124332572	0.173776874	PGM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8982491
+"FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes"	Reactome	R-HSA-9615017	1	29	0.124332572	0.173776874	FOXO1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9615017
+TNFs bind their physiological receptors	Reactome	R-HSA-5669034	1	29	0.124332572	0.173776874	EDAR	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5669034
+mRNA Capping	Reactome	R-HSA-72086	1	29	0.124332572	0.173776874	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72086
+Pentose phosphate pathway	KEGG PATHWAY	hsa00030	1	30	0.12820091	0.177636657	PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00030/hsa:5236%09red
+Regulation of TP53 Activity through Acetylation	Reactome	R-HSA-6804758	1	30	0.12820091	0.177636657	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804758
+Vpr-mediated nuclear import of PICs	Reactome	R-HSA-180910	1	30	0.12820091	0.177636657	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-180910
+Export of Viral Ribonucleoproteins from Nucleus	Reactome	R-HSA-168274	1	30	0.12820091	0.177636657	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168274
+Activation of BH3-only proteins	Reactome	R-HSA-114452	1	30	0.12820091	0.177636657	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-114452
+Nuclear import of Rev protein	Reactome	R-HSA-180746	1	30	0.12820091	0.177636657	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-180746
+Cardiac conduction	Reactome	R-HSA-5576891	2	141	0.131786075	0.180890932	KAT2B|KCNK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5576891
+Galactose metabolism	KEGG PATHWAY	hsa00052	1	31	0.132052258	0.180890932	PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00052/hsa:5236%09red
+Asthma	KEGG PATHWAY	hsa05310	1	31	0.132052258	0.180890932	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05310/hsa:7124%09red
+Circadian rhythm	KEGG PATHWAY	hsa04710	1	31	0.132052258	0.180890932	NPAS2	http://www.genome.jp/kegg-bin/show_pathway?hsa04710/hsa:4862%09red
+Inwardly rectifying K+ channels	Reactome	R-HSA-1296065	1	31	0.132052258	0.180890932	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1296065
+Transport of the SLBP independent Mature mRNA	Reactome	R-HSA-159227	1	31	0.132052258	0.180890932	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-159227
+Activated NOTCH1 Transmits Signal to the Nucleus	Reactome	R-HSA-2122948	1	31	0.132052258	0.180890932	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2122948
+Rev-mediated nuclear export of HIV RNA	Reactome	R-HSA-165054	1	31	0.132052258	0.180890932	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-165054
+HATs acetylate histones	Reactome	R-HSA-3214847	2	142	0.133273279	0.182304215	KAT2B|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3214847
+Nuclear Pore Complex (NPC) Disassembly	Reactome	R-HSA-3301854	1	32	0.13588669	0.185090357	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3301854
+Signaling by FGFR1 in disease	Reactome	R-HSA-5655302	1	32	0.13588669	0.185090357	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5655302
+@@Signaling by FGFR1	Reactome	R-HSA-5654736	1	42	0.173316676	0.219034066	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654736
+Transport of the SLBP Dependant Mature mRNA	Reactome	R-HSA-159230	1	32	0.13588669	0.185090357	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-159230
+Clathrin-mediated endocytosis	Reactome	R-HSA-8856828	2	145	0.13775769	0.187373807	COPS2|SH3GL1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8856828
+Formation of the HIV-1 Early Elongation Complex	Reactome	R-HSA-167158	1	33	0.139704278	0.188424677	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167158
+Formation of the Early Elongation Complex	Reactome	R-HSA-113418	1	33	0.139704278	0.188424677	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-113418
+Interactions of Rev with host cellular proteins	Reactome	R-HSA-177243	1	33	0.139704278	0.188424677	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-177243
+Interactions of Vpr with host cellular proteins	Reactome	R-HSA-176033	1	33	0.139704278	0.188424677	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176033
+"Inactivation, recovery and regulation of the phototransduction cascade"	Reactome	R-HSA-2514859	1	33	0.139704278	0.188424677	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2514859
+Hemostasis	Reactome	R-HSA-109582	5	617	0.142006948	0.191262505	RAD51C|PIK3CA|SERPINB2|PIK3R3|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-109582
+Phospholipase D signaling pathway	KEGG PATHWAY	hsa04072	2	148	0.142275005	0.191355907	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04072/hsa:5290%09red/hsa:8503%09red
+p38 MAPK pathway	PANTHER	P05918	1	34	0.143505097	0.192472714	MAP3K4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P05918
+The phototransduction cascade	Reactome	R-HSA-2514856	1	34	0.143505097	0.192472714	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2514856
+Organelle biogenesis and maintenance	Reactome	R-HSA-1852241	3	294	0.144469983	0.193497348	TRIP11|MAML2|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1852241
+Prion diseases	KEGG PATHWAY	hsa05020	1	35	0.14728922	0.196453627	BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa05020/hsa:581%09red
+Regulation of TP53 Degradation	Reactome	R-HSA-6804757	1	35	0.14728922	0.196453627	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804757
+N-glycan trimming in the ER and Calnexin/Calreticulin cycle	Reactome	R-HSA-532668	1	35	0.14728922	0.196453627	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-532668
+Phagosome	KEGG PATHWAY	hsa04145	2	152	0.148346458	0.197590095	CD14|MBL2	http://www.genome.jp/kegg-bin/show_pathway?hsa04145/hsa:929%09red/hsa:4153%09red
+Extracellular matrix organization	Reactome	R-HSA-1474244	3	298	0.148586649	0.197636661	PLOD3|EFEMP2|ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474244
+Starch and sucrose metabolism	KEGG PATHWAY	hsa00500	1	36	0.15105672	0.199544062	PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00500/hsa:5236%09red
+Regulation of TP53 Expression and Degradation	Reactome	R-HSA-6806003	1	36	0.15105672	0.199544062	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6806003
+Interleukin-7 signaling	Reactome	R-HSA-1266695	1	36	0.15105672	0.199544062	PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1266695
+PI3K Cascade	Reactome	R-HSA-109704	1	36	0.15105672	0.199544062	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-109704
+Hippo signaling pathway	KEGG PATHWAY	hsa04390	2	154	0.151401851	0.199726004	ID2|BIRC2	http://www.genome.jp/kegg-bin/show_pathway?hsa04390/hsa:329%09red/hsa:3398%09red
+Cushing syndrome	KEGG PATHWAY	hsa04934	2	155	0.152934262	0.201471538	E2F3|RB1	http://www.genome.jp/kegg-bin/show_pathway?hsa04934/hsa:1871%09red/hsa:5925%09red
+Primary immunodeficiency	KEGG PATHWAY	hsa05340	1	37	0.154807669	0.20282964	IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05340/hsa:8517%09red
+African trypanosomiasis	KEGG PATHWAY	hsa05143	1	37	0.154807669	0.20282964	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05143/hsa:7124%09red
+NS1 Mediated Effects on Host Pathways	Reactome	R-HSA-168276	1	37	0.154807669	0.20282964	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168276
+Metalloprotease DUBs	Reactome	R-HSA-5689901	1	37	0.154807669	0.20282964	KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689901
+Blood coagulation	PANTHER	P00011	1	38	0.15854214	0.205762912	SERPINB2	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00011
+Allograft rejection	KEGG PATHWAY	hsa05330	1	38	0.15854214	0.205762912	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05330/hsa:7124%09red
+Molecules associated with elastic fibres	Reactome	R-HSA-2129379	1	38	0.15854214	0.205762912	EFEMP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2129379
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	Reactome	R-HSA-8950505	1	38	0.15854214	0.205762912	SERPINB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8950505
+DNA Damage Recognition in GG-NER	Reactome	R-HSA-5696394	1	38	0.15854214	0.205762912	COPS2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5696394
+Association of TriC/CCT with target proteins during biosynthesis	Reactome	R-HSA-390471	1	38	0.15854214	0.205762912	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-390471
+Transport of Mature mRNA Derived from an Intronless Transcript	Reactome	R-HSA-159231	1	38	0.15854214	0.205762912	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-159231
+DAP12 interactions	Reactome	R-HSA-2172127	1	39	0.162260204	0.208620263	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2172127
+Signaling by FGFR2 in disease	Reactome	R-HSA-5655253	1	39	0.162260204	0.208620263	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5655253
+@@Signaling by FGFR2	Reactome	R-HSA-5654738	1	66	0.256700987	0.28878861	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5654738
+GABA B receptor activation	Reactome	R-HSA-977444	1	39	0.162260204	0.208620263	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-977444
+Activation of GABAB receptors	Reactome	R-HSA-991365	1	39	0.162260204	0.208620263	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-991365
+Transport of Mature mRNAs Derived from Intronless Transcripts	Reactome	R-HSA-159234	1	39	0.162260204	0.208620263	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-159234
+Host Interactions with Influenza Factors	Reactome	R-HSA-168253	1	39	0.162260204	0.208620263	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168253
+Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template	Reactome	R-HSA-110313	1	39	0.162260204	0.208620263	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-110313
+Ferroptosis	KEGG PATHWAY	hsa04216	1	40	0.165961934	0.211403893	TP53	http://www.genome.jp/kegg-bin/show_pathway?hsa04216/hsa:7157%09red
+RNA Polymerase III Transcription	Reactome	R-HSA-74158	1	40	0.165961934	0.211403893	NFIA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74158
+IRS-mediated signalling	Reactome	R-HSA-112399	1	40	0.165961934	0.211403893	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112399
+Activation of gene expression by SREBF (SREBP)	Reactome	R-HSA-2426168	1	40	0.165961934	0.211403893	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2426168
+RNA Polymerase III Abortive And Retractive Initiation	Reactome	R-HSA-749476	1	40	0.165961934	0.211403893	NFIA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-749476
+Viral Messenger RNA Synthesis	Reactome	R-HSA-168325	1	40	0.165961934	0.211403893	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168325
+Protein processing in endoplasmic reticulum	KEGG PATHWAY	hsa04141	2	165	0.168417866	0.214248883	VCP|BAX	http://www.genome.jp/kegg-bin/show_pathway?hsa04141/hsa:7415%09red/hsa:581%09red
+Graft-versus-host disease	KEGG PATHWAY	hsa05332	1	41	0.169647401	0.215528295	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05332/hsa:7124%09red
+RHO GTPase Effectors	Reactome	R-HSA-195258	3	321	0.172956572	0.219034066	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-195258
+Factors involved in megakaryocyte development and platelet production	Reactome	R-HSA-983231	2	168	0.173114552	0.219034066	RAD51C|TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983231
+Deactivation of the beta-catenin transactivating complex	Reactome	R-HSA-3769402	1	42	0.173316676	0.219034066	SOX9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3769402
+Type I diabetes mellitus	KEGG PATHWAY	hsa04940	1	43	0.176969829	0.223065373	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa04940/hsa:7124%09red
+Signaling by Retinoic Acid	Reactome	R-HSA-5362517	1	43	0.176969829	0.223065373	CRABP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5362517
+Alzheimer disease	KEGG PATHWAY	hsa05010	2	171	0.177832533	0.223859777	TNF|ADAM17	http://www.genome.jp/kegg-bin/show_pathway?hsa05010/hsa:7124%09red/hsa:6868%09red
+Ubiquitin proteasome pathway	PANTHER	P00060	1	44	0.180606931	0.226169667	PSMD4	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00060
+IGF1R signaling cascade	Reactome	R-HSA-2428924	1	44	0.180606931	0.226169667	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2428924
+Intra-Golgi traffic	Reactome	R-HSA-6811438	1	44	0.180606931	0.226169667	TRIP11	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6811438
+IRS-related events triggered by IGF1R	Reactome	R-HSA-2428928	1	44	0.180606931	0.226169667	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2428928
+Signaling by WNT	Reactome	R-HSA-195721	3	329	0.181686889	0.22722659	PSMD4|SOX9|CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-195721
+Basal transcription factors	KEGG PATHWAY	hsa03022	1	45	0.184228051	0.229213971	CCNH	http://www.genome.jp/kegg-bin/show_pathway?hsa03022/hsa:902%09red
+Proteasome	KEGG PATHWAY	hsa03050	1	45	0.184228051	0.229213971	PSMD4	http://www.genome.jp/kegg-bin/show_pathway?hsa03050/hsa:5710%09red
+Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)	Reactome	R-HSA-2404192	1	45	0.184228051	0.229213971	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2404192
+Elastic fibre formation	Reactome	R-HSA-1566948	1	45	0.184228051	0.229213971	EFEMP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1566948
+HIV Transcription Elongation	Reactome	R-HSA-167169	1	46	0.187833261	0.232497983	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167169
+Tat-mediated elongation of the HIV-1 transcript	Reactome	R-HSA-167246	1	46	0.187833261	0.232497983	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167246
+Insulin receptor signalling cascade	Reactome	R-HSA-74751	1	46	0.187833261	0.232497983	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74751
+Formation of HIV-1 elongation complex containing HIV-1 Tat	Reactome	R-HSA-167200	1	46	0.187833261	0.232497983	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167200
+Metabolic pathways	KEGG PATHWAY	hsa01100	9	1433	0.188710818	0.233284361	PIK3CA|HPRT1|PGM1|AZI2|PTEN|DCTPP1|DHCR24|AK1|COX17	http://www.genome.jp/kegg-bin/show_pathway?hsa01100/hsa:5728%09red/hsa:10063%09red/hsa:5290%09red/hsa:113451%09red/hsa:5236%09red/hsa:79077%09red/hsa:3251%09red/hsa:203%09red/hsa:1718%09red
+Transcription regulation by bZIP transcription factor	PANTHER	P00055	1	47	0.191422629	0.233341762	CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00055
+HIV Transcription Initiation	Reactome	R-HSA-167161	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167161
+Interleukin-10 signaling	Reactome	R-HSA-6783783	1	47	0.191422629	0.233341762	TNF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6783783
+Regulation of Complement cascade	Reactome	R-HSA-977606	1	47	0.191422629	0.233341762	CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-977606
+RNA Polymerase II Transcription Initiation And Promoter Clearance	Reactome	R-HSA-76042	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-76042
+RNA Polymerase II HIV Promoter Escape	Reactome	R-HSA-167162	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167162
+Interleukin-12 signaling	Reactome	R-HSA-9020591	1	47	0.191422629	0.233341762	SERPINB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9020591
+RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	Reactome	R-HSA-73779	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73779
+RNA Polymerase II Transcription Initiation	Reactome	R-HSA-75953	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75953
+RNA Polymerase II Promoter Escape	Reactome	R-HSA-73776	1	47	0.191422629	0.233341762	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73776
+Amino sugar and nucleotide sugar metabolism	KEGG PATHWAY	hsa00520	1	48	0.194996225	0.236798694	PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00520/hsa:5236%09red
+DNA Damage Bypass	Reactome	R-HSA-73893	1	48	0.194996225	0.236798694	VCP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73893
+Formation of HIV elongation complex in the absence of HIV Tat	Reactome	R-HSA-167152	1	48	0.194996225	0.236798694	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167152
+Intestinal immune network for IgA production	KEGG PATHWAY	hsa04672	1	49	0.198554117	0.239909178	MAP3K14	http://www.genome.jp/kegg-bin/show_pathway?hsa04672/hsa:9020%09red
+Malaria	KEGG PATHWAY	hsa05144	1	49	0.198554117	0.239909178	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05144/hsa:7124%09red
+Cross-presentation of soluble exogenous antigens (endosomes)	Reactome	R-HSA-1236978	1	49	0.198554117	0.239909178	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1236978
+Regulation of activated PAK-2p34 by proteasome mediated degradation	Reactome	R-HSA-211733	1	49	0.198554117	0.239909178	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-211733
+Arginine and proline metabolism	KEGG PATHWAY	hsa00330	1	50	0.202096374	0.242666844	AZI2	http://www.genome.jp/kegg-bin/show_pathway?hsa00330/hsa:113451%09red
+Regulation of ornithine decarboxylase (ODC)	Reactome	R-HSA-350562	1	50	0.202096374	0.242666844	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-350562
+snRNP Assembly	Reactome	R-HSA-191859	1	50	0.202096374	0.242666844	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-191859
+Metabolism of non-coding RNA	Reactome	R-HSA-194441	1	50	0.202096374	0.242666844	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-194441
+Ubiquitin-dependent degradation of Cyclin D	Reactome	R-HSA-75815	1	51	0.205623065	0.245371762	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75815
+p53-Independent DNA Damage Response	Reactome	R-HSA-69610	1	51	0.205623065	0.245371762	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69610
+Ubiquitin Mediated Degradation of Phosphorylated Cdc25A	Reactome	R-HSA-69601	1	51	0.205623065	0.245371762	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69601
+Vpu mediated degradation of CD4	Reactome	R-HSA-180534	1	51	0.205623065	0.245371762	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-180534
+p53-Independent G1/S DNA damage checkpoint	Reactome	R-HSA-69613	1	51	0.205623065	0.245371762	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69613
+Signaling by PTK6	Reactome	R-HSA-8848021	1	52	0.209134257	0.248024987	HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8848021
+Regulation of Apoptosis	Reactome	R-HSA-169911	1	52	0.209134257	0.248024987	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-169911
+Vif-mediated degradation of APOBEC3G	Reactome	R-HSA-180585	1	52	0.209134257	0.248024987	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-180585
+Signaling by Non-Receptor Tyrosine Kinases	Reactome	R-HSA-9006927	1	52	0.209134257	0.248024987	HLF	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006927
+Negative regulation of NOTCH4 signaling	Reactome	R-HSA-9604323	1	52	0.209134257	0.248024987	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9604323
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	Reactome	R-HSA-1655829	1	53	0.212630018	0.251551238	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1655829
+FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	Reactome	R-HSA-8854050	1	53	0.212630018	0.251551238	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8854050
+SCF-beta-TrCP mediated degradation of Emi1	Reactome	R-HSA-174113	1	54	0.216110416	0.254418497	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174113
+Degradation of AXIN	Reactome	R-HSA-4641257	1	54	0.216110416	0.254418497	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4641257
+Intraflagellar transport	Reactome	R-HSA-5620924	1	54	0.216110416	0.254418497	TRIP11	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5620924
+AUF1 (hnRNP D0) binds and destabilizes mRNA	Reactome	R-HSA-450408	1	54	0.216110416	0.254418497	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450408
+Transport of small molecules	Reactome	R-HSA-382551	5	720	0.217785074	0.256076955	VCP|SLC39A1|SLC39A2|ADD1|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-382551
+Pathogenic Escherichia coli infection	KEGG PATHWAY	hsa05130	1	55	0.219575518	0.256927367	CD14	http://www.genome.jp/kegg-bin/show_pathway?hsa05130/hsa:929%09red
+HSP90 chaperone cycle for steroid hormone receptors (SHR)	Reactome	R-HSA-3371497	1	55	0.219575518	0.256927367	FKBP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371497
+Signaling by PDGF	Reactome	R-HSA-186797	1	55	0.219575518	0.256927367	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-186797
+purine nucleotides de novo biosynthesis	BioCyc	PWY-841	1	55	0.219575518	0.256927367	AK1	http://biocyc.org/HUMAN/NEW-IMAGE?type=NIL&object=PWY-841
+GABA receptor activation	Reactome	R-HSA-977443	1	56	0.223025389	0.260016283	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-977443
+Neurexins and neuroligins	Reactome	R-HSA-6794361	1	56	0.223025389	0.260016283	SIPA1L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6794361
+Degradation of DVL	Reactome	R-HSA-4641258	1	56	0.223025389	0.260016283	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4641258
+Pyrimidine metabolism	KEGG PATHWAY	hsa00240	1	57	0.226460099	0.263065229	DCTPP1	http://www.genome.jp/kegg-bin/show_pathway?hsa00240/hsa:79077%09red
+Signaling by FGFR in disease	Reactome	R-HSA-1226099	1	57	0.226460099	0.263065229	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1226099
+@@Signaling by FGFR	Reactome	R-HSA-190236	1	77	0.292070033	0.319254758	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-190236
+Interleukin-12 family signaling	Reactome	R-HSA-447115	1	57	0.226460099	0.263065229	SERPINB2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-447115
+mRNA 3'-end processing	Reactome	R-HSA-72187	1	58	0.229879711	0.266074713	THOC1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72187
+CDT1 association with the CDC6:ORC:origin complex	Reactome	R-HSA-68827	1	58	0.229879711	0.266074713	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68827
+GLI3 is processed to GLI3R by the proteasome	Reactome	R-HSA-5610785	1	59	0.233284293	0.268723414	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5610785
+SCF(Skp2)-mediated degradation of p27/p21	Reactome	R-HSA-187577	1	59	0.233284293	0.268723414	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-187577
+Degradation of GLI1 by the proteasome	Reactome	R-HSA-5610780	1	59	0.233284293	0.268723414	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5610780
+Degradation of GLI2 by the proteasome	Reactome	R-HSA-5610783	1	59	0.233284293	0.268723414	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5610783
+Viral myocarditis	KEGG PATHWAY	hsa05416	1	60	0.236673909	0.27230224	CD55	http://www.genome.jp/kegg-bin/show_pathway?hsa05416/hsa:1604%09red
+Muscle contraction	Reactome	R-HSA-397014	2	209	0.238896293	0.274531182	KAT2B|KCNK1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-397014
+RNA Polymerase II Transcription Elongation	Reactome	R-HSA-75955	1	61	0.240048626	0.275198604	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-75955
+Formation of RNA Pol II elongation complex 	Reactome	R-HSA-112382	1	61	0.240048626	0.275198604	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112382
+Autodegradation of Cdh1 by Cdh1:APC/C	Reactome	R-HSA-174084	1	62	0.243408509	0.278718661	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174084
+Alzheimer disease-amyloid secretase pathway	PANTHER	P00003	1	63	0.246753622	0.281537964	ADAM17	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00003
+Asymmetric localization of PCP proteins	Reactome	R-HSA-4608870	1	63	0.246753622	0.281537964	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4608870
+Regulation of actin cytoskeleton	KEGG PATHWAY	hsa04810	2	214	0.247040062	0.281537964	PIK3CA|PIK3R3	http://www.genome.jp/kegg-bin/show_pathway?hsa04810/hsa:5290%09red/hsa:8503%09red
+G alpha (q) signalling events	Reactome	R-HSA-416476	2	214	0.247040062	0.281537964	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-416476
+Mitochondrial protein import	Reactome	R-HSA-1268020	1	64	0.25008403	0.283909861	COX17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1268020
+Collagen degradation	Reactome	R-HSA-1442490	1	64	0.25008403	0.283909861	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1442490
+MAP kinase activation	Reactome	R-HSA-450294	1	64	0.25008403	0.283909861	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-450294
+Signaling by ROBO receptors	Reactome	R-HSA-376176	2	216	0.250300594	0.283909861	PSMD4|CLASP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-376176
+Inflammatory bowel disease (IBD)	KEGG PATHWAY	hsa05321	1	65	0.253399797	0.286749711	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05321/hsa:7124%09red
+Gap-filling DNA repair synthesis and ligation in TC-NER	Reactome	R-HSA-6782210	1	65	0.253399797	0.286749711	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6782210
+APC/C:Cdc20 mediated degradation of Securin	Reactome	R-HSA-174154	1	66	0.256700987	0.28878861	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174154
+Dual incision in TC-NER	Reactome	R-HSA-6782135	1	66	0.256700987	0.28878861	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6782135
+Glycolysis	Reactome	R-HSA-70171	1	66	0.256700987	0.28878861	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-70171
+Regulation of HSF1-mediated heat shock response	Reactome	R-HSA-3371453	1	66	0.256700987	0.28878861	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371453
+Long-term potentiation	KEGG PATHWAY	hsa04720	1	67	0.259987664	0.291125721	CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04720/hsa:1387%09red
+Regulation of RAS by GAPs	Reactome	R-HSA-5658442	1	67	0.259987664	0.291125721	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5658442
+RNA Polymerase II Transcription Termination	Reactome	R-HSA-73856	1	67	0.259987664	0.291125721	THOC1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73856
+Collagen biosynthesis and modifying enzymes	Reactome	R-HSA-1650814	1	67	0.259987664	0.291125721	PLOD3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1650814
+Shigellosis	KEGG PATHWAY	hsa05131	1	68	0.263259891	0.293765093	IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa05131/hsa:8517%09red
+Staphylococcus aureus infection	KEGG PATHWAY	hsa05150	1	68	0.263259891	0.293765093	MBL2	http://www.genome.jp/kegg-bin/show_pathway?hsa05150/hsa:4153%09red
+Glycolysis / Gluconeogenesis	KEGG PATHWAY	hsa00010	1	68	0.263259891	0.293765093	PGM1	http://www.genome.jp/kegg-bin/show_pathway?hsa00010/hsa:5236%09red
+Orc1 removal from chromatin	Reactome	R-HSA-68949	1	70	0.269761249	0.299977001	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68949
+PKMTs methylate histone lysines	Reactome	R-HSA-3214841	1	70	0.269761249	0.299977001	EHMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3214841
+Signaling by Insulin receptor	Reactome	R-HSA-74752	1	70	0.269761249	0.299977001	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74752
+CDK-mediated phosphorylation and removal of Cdc6	Reactome	R-HSA-69017	1	71	0.272990505	0.302868499	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69017
+APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	Reactome	R-HSA-174178	1	71	0.272990505	0.302868499	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174178
+Thermogenesis	KEGG PATHWAY	hsa04714	2	231	0.274777725	0.304500517	SMARCB1|COX17	http://www.genome.jp/kegg-bin/show_pathway?hsa04714/hsa:6598%09red/hsa:10063%09red
+Adherens junction	KEGG PATHWAY	hsa04520	1	72	0.276205563	0.305379974	CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04520/hsa:1387%09red
+Interleukin-17 signaling	Reactome	R-HSA-448424	1	72	0.276205563	0.305379974	IKBKG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-448424
+Transcription of the HIV genome	Reactome	R-HSA-167172	1	73	0.279406484	0.308211276	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-167172
+Condensation of Prophase Chromosomes	Reactome	R-HSA-2299718	1	73	0.279406484	0.308211276	RB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2299718
+Thyroid hormone synthesis	KEGG PATHWAY	hsa04918	1	74	0.28259333	0.311014145	PAX8	http://www.genome.jp/kegg-bin/show_pathway?hsa04918/hsa:7849%09red
+Leishmaniasis	KEGG PATHWAY	hsa05140	1	74	0.28259333	0.311014145	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05140/hsa:7124%09red
+Gastric acid secretion	KEGG PATHWAY	hsa04971	1	75	0.285766163	0.314147049	KCNJ15	http://www.genome.jp/kegg-bin/show_pathway?hsa04971/hsa:3772%09red
+Signaling by NTRK1 (TRKA)	Reactome	R-HSA-187037	1	76	0.288925043	0.316896147	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-187037
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	Reactome	R-HSA-427389	1	76	0.288925043	0.316896147	EHMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-427389
+Antigen processing and presentation	KEGG PATHWAY	hsa04612	1	77	0.292070033	0.319254758	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa04612/hsa:7124%09red
+Meiotic synapsis	Reactome	R-HSA-1221632	1	77	0.292070033	0.319254758	UBE2I	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1221632
+Drug metabolism - other enzymes	KEGG PATHWAY	hsa00983	1	79	0.298318582	0.325346314	HPRT1	http://www.genome.jp/kegg-bin/show_pathway?hsa00983/hsa:3251%09red
+RMTs methylate histone arginines	Reactome	R-HSA-3214858	1	79	0.298318582	0.325346314	SMARCB1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3214858
+Interleukin signaling pathway	PANTHER	P00036	1	80	0.301422262	0.32835932	PIK3CA	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00036
+SLC-mediated transmembrane transport	Reactome	R-HSA-425407	2	249	0.304095599	0.330897246	SLC39A1|SLC39A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425407
+Degradation of beta-catenin by the destruction complex	Reactome	R-HSA-195253	1	81	0.304512293	0.330976679	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-195253
+FLT3 Signaling	Reactome	R-HSA-9607240	2	252	0.308965222	0.335438003	PSMD4|PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9607240
+Salmonella infection	KEGG PATHWAY	hsa05132	1	83	0.310651643	0.33651016	CD14	http://www.genome.jp/kegg-bin/show_pathway?hsa05132/hsa:929%09red
+Fcgamma receptor (FCGR) dependent phagocytosis	Reactome	R-HSA-2029480	1	83	0.310651643	0.33651016	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2029480
+RNA Polymerase II Pre-transcription Events	Reactome	R-HSA-674695	1	84	0.313701082	0.339050664	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-674695
+Hedgehog 'on' state	Reactome	R-HSA-5632684	1	84	0.313701082	0.339050664	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5632684
+Glucose metabolism	Reactome	R-HSA-70326	1	85	0.316737108	0.341948245	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-70326
+Protein-protein interactions at synapses	Reactome	R-HSA-6794362	1	86	0.31975978	0.344824936	SIPA1L1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6794362
+"Platelet activation, signaling and aggregation"	Reactome	R-HSA-76002	2	260	0.321916488	0.346477669	PIK3CA|PIK3R3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-76002
+Signaling by Rho GTPases	Reactome	R-HSA-194315	3	449	0.322011956	0.346477669	MAD2L1|CLASP2|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-194315
+Parkinson disease	PANTHER	P00049	1	88	0.325765296	0.350124978	FRK	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00049
+Switching of origins to a post-replicative state	Reactome	R-HSA-69052	1	89	0.328748256	0.351760634	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69052
+Collagen formation	Reactome	R-HSA-1474290	1	89	0.328748256	0.351760634	PLOD3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474290
+Peptide hormone metabolism	Reactome	R-HSA-2980736	1	89	0.328748256	0.351760634	CDX2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2980736
+B-WICH complex positively regulates rRNA expression	Reactome	R-HSA-5250924	1	89	0.328748256	0.351760634	KAT2B	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5250924
+Hypertrophic cardiomyopathy (HCM)	KEGG PATHWAY	hsa05410	1	90	0.331718095	0.354151358	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05410/hsa:7124%09red
+RNA Polymerase I Promoter Escape	Reactome	R-HSA-73772	1	90	0.331718095	0.354151358	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73772
+Rheumatoid arthritis	KEGG PATHWAY	hsa05323	1	91	0.334674869	0.356123645	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05323/hsa:7124%09red
+PCP/CE pathway	Reactome	R-HSA-4086400	1	91	0.334674869	0.356123645	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4086400
+Formation of the beta-catenin:TCF transactivating complex	Reactome	R-HSA-201722	1	91	0.334674869	0.356123645	CREBBP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-201722
+Th1 and Th2 cell differentiation	KEGG PATHWAY	hsa04658	1	92	0.337618636	0.358859543	IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04658/hsa:8517%09red
+GnRH signaling pathway	KEGG PATHWAY	hsa04912	1	93	0.340549452	0.361575658	MAP3K4	http://www.genome.jp/kegg-bin/show_pathway?hsa04912/hsa:4216%09red
+Chaperonin-mediated protein folding	Reactome	R-HSA-390466	1	94	0.343467375	0.363871377	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-390466
+Class B/2 (Secretin family receptors)	Reactome	R-HSA-373080	1	94	0.343467375	0.363871377	CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-373080
+Dilated cardiomyopathy (DCM)	KEGG PATHWAY	hsa05414	1	96	0.349264765	0.369200843	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05414/hsa:7124%09red
+SLC transporter disorders	Reactome	R-HSA-5619102	1	96	0.349264765	0.369200843	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5619102
+VEGFA-VEGFR2 Pathway	Reactome	R-HSA-4420097	1	97	0.352144344	0.371836626	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-4420097
+Protein folding	Reactome	R-HSA-391251	1	100	0.360707285	0.380044984	TP53	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-391251
+Visual phototransduction	Reactome	R-HSA-2187338	1	100	0.360707285	0.380044984	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2187338
+Melanogenesis	KEGG PATHWAY	hsa04916	1	101	0.363536518	0.38177281	CREBBP	http://www.genome.jp/kegg-bin/show_pathway?hsa04916/hsa:1387%09red
+UCH proteinases	Reactome	R-HSA-5689603	1	101	0.363536518	0.38177281	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689603
+COPI-mediated anterograde transport	Reactome	R-HSA-6807878	1	101	0.363536518	0.38177281	CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6807878
+Metabolism of carbohydrates	Reactome	R-HSA-71387	2	288	0.366702533	0.384678147	PGM1|RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-71387
+Transcriptional regulation by small RNAs	Reactome	R-HSA-5578749	1	103	0.369157689	0.386832268	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5578749
+NoRC negatively regulates rRNA expression	Reactome	R-HSA-427413	1	105	0.374729498	0.392244029	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-427413
+"Parathyroid hormone synthesis, secretion and action"	KEGG PATHWAY	hsa04928	1	106	0.377497026	0.39428377	RUNX2	http://www.genome.jp/kegg-bin/show_pathway?hsa04928/hsa:860%09red
+Signaling by VEGF	Reactome	R-HSA-194138	1	106	0.377497026	0.39428377	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-194138
+Th17 cell differentiation	KEGG PATHWAY	hsa04659	1	107	0.380252375	0.396731351	IKBKG	http://www.genome.jp/kegg-bin/show_pathway?hsa04659/hsa:8517%09red
+Negative epigenetic regulation of rRNA expression	Reactome	R-HSA-5250941	1	108	0.382995598	0.398729471	CCNH	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5250941
+Autophagy	Reactome	R-HSA-9612973	1	108	0.382995598	0.398729471	GFAP	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9612973
+Senescence-Associated Secretory Phenotype (SASP)	Reactome	R-HSA-2559582	1	110	0.388445877	0.403966932	EHMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559582
+Alzheimer disease-presenilin pathway	PANTHER	P00004	1	112	0.393848286	0.408262539	ADAM17	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00004
+Hedgehog 'off' state	Reactome	R-HSA-5610787	1	112	0.393848286	0.408262539	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5610787
+SRP-dependent cotranslational protein targeting to membrane	Reactome	R-HSA-1799339	1	112	0.393848286	0.408262539	SRPRB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1799339
+Synthesis of DNA	Reactome	R-HSA-69239	1	118	0.409772451	0.424312764	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69239
+Cell-Cell communication	Reactome	R-HSA-1500931	1	125	0.427825628	0.442530698	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1500931
+Oocyte meiosis	KEGG PATHWAY	hsa04114	1	128	0.435393628	0.449875605	MAD2L1	http://www.genome.jp/kegg-bin/show_pathway?hsa04114/hsa:4085%09red
+Influenza Viral RNA Transcription and Replication	Reactome	R-HSA-168273	1	131	0.442862096	0.457102035	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168273
+Systemic lupus erythematosus	KEGG PATHWAY	hsa05322	1	133	0.447786423	0.460703339	TNF	http://www.genome.jp/kegg-bin/show_pathway?hsa05322/hsa:7124%09red
+Oxidative phosphorylation	KEGG PATHWAY	hsa00190	1	133	0.447786423	0.460703339	COX17	http://www.genome.jp/kegg-bin/show_pathway?hsa00190/hsa:10063%09red
+Gene Silencing by RNA	Reactome	R-HSA-211000	1	133	0.447786423	0.460703339	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-211000
+Cell surface interactions at the vascular wall	Reactome	R-HSA-202733	1	135	0.452667473	0.46522815	PIK3CA	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-202733
+Degradation of the extracellular matrix	Reactome	R-HSA-1474228	1	140	0.464683238	0.477068185	ADAM17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474228
+Influenza Life Cycle	Reactome	R-HSA-168255	1	141	0.46705473	0.478992232	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168255
+Diseases of glycosylation	Reactome	R-HSA-3781865	1	143	0.471766424	0.483309645	PGM1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3781865
+Beta-catenin independent WNT signaling	Reactome	R-HSA-3858494	1	144	0.474106716	0.485191039	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3858494
+Metabolism of amino acids and derivatives	Reactome	R-HSA-71291	2	367	0.485722785	0.496551	AZI2|PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-71291
+Influenza Infection	Reactome	R-HSA-168254	1	152	0.492461695	0.502906269	RANBP2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168254
+Cadherin signaling pathway	PANTHER	P00012	1	153	0.494710814	0.504133877	FRK	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00012
+Oxytocin signaling pathway	KEGG PATHWAY	hsa04921	1	153	0.494710814	0.504133877	NFATC4	http://www.genome.jp/kegg-bin/show_pathway?hsa04921/hsa:4776%09red
+Heterotrimeric G-protein signaling pathway-Gi alpha and Gs alpha mediated pathway	PANTHER	P00026	1	154	0.496950023	0.505880415	CREBBP	http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=P00026
+Protein localization	Reactome	R-HSA-9609507	1	156	0.501398886	0.509870251	COX17	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9609507
+cGMP-PKG signaling pathway	KEGG PATHWAY	hsa04022	1	167	0.525177452	0.533487222	NFATC4	http://www.genome.jp/kegg-bin/show_pathway?hsa04022/hsa:4776%09red
+Regulation of expression of SLITs and ROBOs	Reactome	R-HSA-9010553	1	169	0.529378066	0.537187647	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9010553
+mRNA Splicing - Major Pathway	Reactome	R-HSA-72163	1	183	0.557765666	0.565398248	DDX5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72163
+mRNA Splicing	Reactome	R-HSA-72172	1	191	0.573215846	0.580448853	DDX5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72172
+Neurotransmitter receptors and postsynaptic signal transmission	Reactome	R-HSA-112314	1	197	0.584450192	0.591203293	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112314
+Cilium Assembly	Reactome	R-HSA-5617833	1	200	0.589956606	0.596147126	TRIP11	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5617833
+Intra-Golgi and retrograde Golgi-to-ER traffic	Reactome	R-HSA-6811442	1	202	0.593587183	0.599187062	TRIP11	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6811442
+RAF/MAP kinase cascade	Reactome	R-HSA-5673001	1	234	0.647514104	0.652938306	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5673001
+MAPK1/MAPK3 signaling	Reactome	R-HSA-5684996	1	239	0.655271718	0.660069733	PSMD4	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5684996
+Endocytosis	KEGG PATHWAY	hsa04144	1	244	0.66285956	0.667015419	SH3GL1	http://www.genome.jp/kegg-bin/show_pathway?hsa04144/hsa:6455%09red
+Transmission across Chemical Synapses	Reactome	R-HSA-112315	1	261	0.687437425	0.691025303	KCNJ15	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112315
+Translation	Reactome	R-HSA-72766	1	291	0.726542808	0.729573227	SRPRB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-72766
+Signaling by GPCR	Reactome	R-HSA-372790	4	1170	0.764551972	0.766941197	PIK3CA|PIK3R3|NMT2|CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-372790
+G alpha (i) signalling events	Reactome	R-HSA-418594	1	405	0.83560038	0.837339403	NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-418594
+GPCR ligand binding	Reactome	R-HSA-500792	1	454	0.867956947	0.868859189	CD55	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-500792
+GPCR downstream signalling	Reactome	R-HSA-388396	3	1108	0.87128523	0.87128523	PIK3CA|PIK3R3|NMT2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-388396
+								
+--------------------								
+								
+#Term	Database	ID	Input number	Background number	P-Value	Corrected P-Value	Input	Hyperlink
+								
+--------------------								
+								
+#Term	Database	ID	Input number	Background number	P-Value	Corrected P-Value	Input	Hyperlink
+								
+--------------------								

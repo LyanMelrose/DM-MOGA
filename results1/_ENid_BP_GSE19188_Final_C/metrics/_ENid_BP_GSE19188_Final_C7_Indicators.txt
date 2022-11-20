@@ -1,0 +1,7 @@
+ACC: 0.94438
+Precision: 0.94488
+Recall: 0.94435
+F_measure: 0.91389
+G-mean: 0.83594
+Average_AUC: 0.8917
+P-value: 0.012051
